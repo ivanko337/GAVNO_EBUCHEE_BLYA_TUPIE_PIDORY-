@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>x1.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>verticalLine2.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>triangle_2.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>brace2.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>x2.png</file>
+    <file>x3.png</file>
+    <file>x4.png</file>
+  </qresource>
+</RCC>
