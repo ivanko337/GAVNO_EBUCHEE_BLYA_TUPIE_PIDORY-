@@ -10,16 +10,22 @@ from MatrixAlghoritms import swapRowsL
 from MyMatrix import Matrix
 
 class Test(QtWidgets.QMainWindow, Ui_MainWindow):
-	def __init__(self, matrix, matrixB):
+	def __init__(self):
 		super().__init__()
 		self.setupUi(self)
 		self.count = 0
-		self.matrix = matrix
-		self.matrixB = matrixB
+		self.matrix = None
+		self.matrixB = None
 		self.mainDet = None
 		self.det1 = None
 		self.det2 = None
 		self.det3 = None
+
+		self.systemArgumentLineEdits = [ [self.argument_lineEdit_11, self.argument_lineEdit_12, self.argument_lineEdit_13],
+							[self.argument_lineEdit_21, self.argument_lineEdit_22, self.argument_lineEdit_23],
+							[self.argument_lineEdit_31, self.argument_lineEdit_32, self.argument_lineEdit_33]]
+		self.answerLineEdits = [ self.answer_LineEdit_1, self.answer_LineEdit_2, self.answer_LineEdit_3 ]
+
 		self.systemArgumentLabels = [self.argument_label_11, self.argument_label_12, self.argument_label_13, self.argument_label_21, self.argument_label_22, self.argument_label_23,
 						self.argument_label_31, self.argument_label_32, self.argument_label_33]
 		self.systemArgumentLabelsCoordinates = [ (i.pos().x(), i.pos().y()) for i in self.systemArgumentLabels ]
@@ -59,11 +65,43 @@ class Test(QtWidgets.QMainWindow, Ui_MainWindow):
 					self.x3_equals2_label, self.x3_divide_line2_label, self.x3_equals3_label, self.x3_result_label]
 
 		self.hide = [self.mainDetWindgets, self.det1Widgets, self.det2Widgets, self.det3Widgets, self.x1Widgets, self.x2Widgets, self.x3Widgets]
-		self.actions = [self.showMainDetWidgets, self.showMainDet, self.showFirstDetWidgets, self.showFirstDet, self.showSecondDetWidgets, self.showSecondDet, self.showThirdDetWidgets,
-					self.showThirdDet, self.showX1Widgets, self.showX1Widgets2, self.showX1, self.showX2Widgets, self.showX2Widgets2, self.showX2, self.showX3Widgets,
-					self.showX3Widgets2, self.showX3]
+		self.actions = [self.showMainDetWidgets, self.showMainDet, self.showFirstDetWidgets, self.showFirstDet, self.showSecondDetWidgets, self.showSecondDet,
+					self.showThirdDetWidgets, self.showThirdDet, self.showX1Widgets, self.showX1Widgets2, self.showX1, self.showX2Widgets, self.showX2Widgets2, self.showX2,
+					self.showX3Widgets, self.showX3Widgets2, self.showX3]
 		self.pushButton.clicked.connect(self.nextAction)
 		self.hideAll()
+		self.normalizeLineEdits()
+
+	def normalizeLineEdits(self):
+		for i in self.systemArgumentLineEdits:
+			for j in i:
+				j.raise_()
+
+	def createMatrix(self):
+		arguments = Matrix([])
+		answers = Matrix([])
+		temp = []
+		for i in self.systemArgumentLineEdits:
+			for j in i:
+				temp.append(float(j.text()))
+			arguments.append(temp)
+			temp = []
+		for i in self.answerLineEdits:
+			answers.append(float(i.text()))
+		self.matrix = arguments
+		self.matrixB = answers
+		for i in self.systemArgumentLineEdits:
+			for j in i:
+				j.move(5000, 5000)
+		for i in self.answerLineEdits:
+			i.move(5000, 5000)
+		j = 0
+		for i in self.systemArgumentLineEdits:
+			for k in i:
+				self.systemArgumentLabels[j].setText(k.text())
+				j += 1
+		for i in range(len(self.answerLineEdits)):
+			self.answerLabels[i].setText(str(self.answerLineEdits[i].text()))
 
 	def refreshAnswerLabels(self):
 		for i in range(len(self.answerLabels)):
@@ -72,7 +110,6 @@ class Test(QtWidgets.QMainWindow, Ui_MainWindow):
 	def nextAction(self):
 		if self.count == len(self.actions):
 			return
-		print(self.actions[self.count])
 		self.actions[self.count]()
 		self.count += 1
 
@@ -86,6 +123,7 @@ class Test(QtWidgets.QMainWindow, Ui_MainWindow):
 			i.show()
 
 	def showMainDetWidgets(self):
+		self.createMatrix()
 		self.showWidgets(self.mainDetWindgets)
 		for i in range(len(self.mainDetArgLabels)):
 			self.systemArgumentLabels[i].setCoordinates(QtCore.QPoint(*self.mainDetArgLabelsCoordinates[i]))
@@ -173,7 +211,7 @@ class Test(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.x1Widgets[-1].show()
 		self.x1Widgets[-2].show()
 		res = self.det1 / self.mainDet
-		self.x1_result_label.setText(str(res))
+		self.x1_result_label.setText(str(int(round(res))))
 
 	def showX2Widgets(self):
 		for i in self.x2Widgets[:6]:
@@ -189,7 +227,7 @@ class Test(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.x2Widgets[-1].show()
 		self.x2Widgets[-2].show()
 		res = self.det2 / self.mainDet
-		self.x2_result_label.setText(str(res))
+		self.x2_result_label.setText(str(int(round(res))))
 
 	def showX3Widgets(self):
 		for i in self.x3Widgets[:6]:
@@ -205,11 +243,11 @@ class Test(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.x3Widgets[-1].show()
 		self.x3Widgets[-2].show()
 		res = self.det3 / self.mainDet
-		self.x3_result_label.setText(str(res))
+		self.x3_result_label.setText(str(int(round(res))))
 
 def __main__():
 	app = QtWidgets.QApplication(sys.argv)
-	window = Test(Matrix([[5, 1, 2], [4, 3, 6], [12, 23, 18]]), Matrix([77, 132, 536]))
+	window = Test()
 	window.show()
 	app.exec_()
 
