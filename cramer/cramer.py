@@ -9,7 +9,7 @@ from numpy.linalg import det
 from MatrixAlghoritms import swapRowsL
 from MyMatrix import Matrix
 
-class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
+class Test(QtWidgets.QMainWindow, Ui_MainWindow):
 	def __init__(self):
 		super().__init__()
 		self.setupUi(self)
@@ -247,7 +247,7 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 
 def __main__():
 	app = QtWidgets.QApplication(sys.argv)
-	window = Cramer()
+	window = Test()
 	window.show()
 	app.exec_()
 
