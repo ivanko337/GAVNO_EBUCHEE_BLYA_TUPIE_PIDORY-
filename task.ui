@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1230</width>
+    <width>1369</width>
     <height>741</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>1201</width>
+      <width>1341</width>
       <height>101</height>
      </rect>
     </property>
@@ -36,22 +36,12 @@
 заготовок, получаемых из каждого листа при каждом способе раскроя, указано в таблице:</string>
     </property>
    </widget>
-   <widget class="QTableView" name="tableView">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>110</y>
-      <width>241</width>
-      <height>131</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label2">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>250</y>
-      <width>851</width>
+      <width>1091</width>
       <height>31</height>
      </rect>
     </property>
@@ -71,7 +61,7 @@
      <rect>
       <x>20</x>
       <y>290</y>
-      <width>1201</width>
+      <width>1341</width>
       <height>101</height>
      </rect>
     </property>
@@ -93,7 +83,7 @@
      <rect>
       <x>20</x>
       <y>390</y>
-      <width>1031</width>
+      <width>1311</width>
       <height>71</height>
      </rect>
     </property>
@@ -114,7 +104,7 @@
      <rect>
       <x>20</x>
       <y>460</y>
-      <width>211</width>
+      <width>451</width>
       <height>41</height>
      </rect>
     </property>
@@ -134,7 +124,7 @@
      <rect>
       <x>20</x>
       <y>490</y>
-      <width>421</width>
+      <width>531</width>
       <height>101</height>
      </rect>
     </property>
@@ -156,7 +146,7 @@ x + 6y + 2z = 300
      <rect>
       <x>20</x>
       <y>590</y>
-      <width>1201</width>
+      <width>1341</width>
       <height>101</height>
      </rect>
     </property>
@@ -178,7 +168,7 @@ x + 6y + 2z = 300
      <rect>
       <x>20</x>
       <y>700</y>
-      <width>161</width>
+      <width>181</width>
       <height>31</height>
      </rect>
     </property>
@@ -196,9 +186,9 @@ x + 6y + 2z = 300
    <widget class="QPushButton" name="pushButton_Gauss">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>220</x>
       <y>700</y>
-      <width>161</width>
+      <width>181</width>
       <height>31</height>
      </rect>
     </property>
@@ -213,8 +203,26 @@ x + 6y + 2z = 300
      <string>Метод Гаусса</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>110</y>
+      <width>391</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="x.qrc">:/newPrefix/table.png</pixmap>
+    </property>
+   </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="x.qrc"/>
+ </resources>
  <connections/>
 </ui>

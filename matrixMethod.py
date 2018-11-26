@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 #coding=utf-8
 
-from gui_gauss import Ui_MainWindow
+from matrixMethod_gui import Ui_MainWindow
 from PyQt5 import QtWidgets, QtCore
 from MyMatrix import Matrix
-from MatrixAlghoritms import addColumn
+from MatrixAlghoritms import addColumn, printMatr
 from toTriangleShape import toTriangleShape
 
-class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
+class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 	def __init__(self):
 		super().__init__()
 		self.setupUi(self)
@@ -63,9 +63,19 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 					self.matrix_3_31, self.matrix_3_32, self.matrix_3_33, self.matrix_3_34 ]
 		self.matrix3LabelsCoordinates = [ (i.pos().x(), i.pos().y()) for i in self.matrix3Labels ]
 		self.matrix3Widgets = [ self.tilde_label_2, self.matrix3_bracket_label_1, self.matrix3_bracket_label_2, self.matrix3_vertLine_label ]
+		self.matrix4Labels = [ self.matrix_4_11, self.matrix_4_12, self.matrix_4_13, self.matrix_4_14,
+					self.matrix_4_21, self.matrix_4_22, self.matrix_4_23, self.matrix_4_24,
+					self.matrix_4_31, self.matrix_4_32, self.matrix_4_33, self.matrix_4_34 ]
+		self.matrix4Widgets = [ self.tilde_label_5, self.tilde_label_6, self.matrix4_bracket_label_1, selfmatrix4_bracket_label_2, self.matrix4_vertLine_label ]
+		self.matrix5Labels = [ self.matrix_5_11, self.matrix_5_12, self.matrix_5_13, self.matrix_5_14,
+					self.matrix_5_21, self.matrix_5_22, self.matrix_5_23, self.matrix_5_24,
+					self.matrix_5_31, self.matrix_5_32, self.matrix_5_33, self.matrix_5_34 ]
+		self.matrix5Widgets = [ self.tilde_label_3, self.matrix5_bracket_label_1, selfmatrix5_bracket_label_2, self.matrix5_vertLine_label ]
+#		self.
+		self.matrix6Widgets = [ self.tilde_label_3, self.matrix6_bracket_label_1, selfmatrix6_bracket_label_2, self.matrix6_vertLine_label ]
 
 		self.resultSystemWidgets = [ self.brace_label_2, self.label_16, self.label_19, self.label_21, self.label_22, self.label_27, self.label_28, self.label_29, self.label_30, self.label_31,
-							self.x11_label_3, self.x21_label_3, self.x22_label_3, self.x31_label_3, self.x32_label_3, self.x33_label_3 ]
+							self.x11_label_3, self.x22_label_3, self.x33_label_3 ]
 		self.resultSystemLabels = [ self.result_system_label_11, self.result_system_label_12, self.result_system_label_13,
 					self.result_system_label_21, self.result_system_label_22, self.result_system_label_23,
 					self.result_system_label_31, self.result_system_label_32, self.result_system_label_33 ]
@@ -79,7 +89,7 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.hide = [self.augmentMatrixWidgets, self.matrixABWidgets, self.matrix1Widgets, self.matrix2Widgets, self.matrix3Widgets, self.resultSystemWidgets, self.values]
 
 		self.actions = [ self.showABMatrixWidgets, self.showAugmentMatrixWidgets, self.showFirstMatrixWidgets, self.showSecondMatrixWidgets, self.showThirdMatrixWidgets,
-				self.showResultMatrixWidgets, self.refreshMatrix3Labels, self.showZValue, self.showYValue, self.showXValue ]
+				self.showResultMatrixWidgets, self.refreshMatrix3Labels ]
 
 		self.normalizeLineEdits()
 		self.hideAll()
@@ -104,6 +114,7 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 	def createAugmentMatrix(self):
 		self.matrixAB = addColumn(self.matrix, self.matrixB)
 		self.matrixList = toTriangleShape(self.matrixAB)
+		printMatr(self.matrixList)
 
 	def nextAction(self):
 		if self.count == len(self.actions):
@@ -239,40 +250,10 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 				self.resultSystemAnswerLabels[k].setText(self.matrix3Labels[i].text())
 				k += 1
 
-	def showZValue(self):
-		self.z_label.show()
-		self.z_value_label.show()
-		self.z = float(self.result_system_answer_label_3.text())
-		self.z = int(self.z) if int(self.z) == self.z else self.z
-		self.z_value_label.setText(str(self.z))
-
-	def showYValue(self):
-		y_answ = round(float(self.result_system_answer_label_2.text()), 2)
-		y_answ = int(y_answ) if int(y_answ) == y_answ else y_answ
-		z_coef = round(float(self.result_system_label_23.text()), 2)
-		z_coef = int(z_coef) if int(z_coef) == z_coef else z_coef
-		self.y_label.show()
-		self.y_value_label.show()
-		self.y = y_answ - z_coef * self.z
-		self.y = int(self.y) if int(self.y) == self.y else self.y
-		self.y_value_label.setText('{} - {}z = {} - {} * {} = {}'.format(y_answ, z_coef, y_answ, z_coef, self.z, self.y))
-
-	def showXValue(self):
-		self.x_label.show()
-		self.x_value_label.show()
-		z_coef = round(float(self.result_system_label_13.text()), 2)
-		z_coef = int(z_coef) if int(z_coef) == z_coef else z_coef
-		y_coef = round(float(self.result_system_label_12.text()), 2)
-		y_coef = int(y_coef) if int(y_coef) == y_coef else y_coef
-		x_answ = round(float(self.result_system_answer_label_1.text()), 2)
-		x_answ = int(x_answ) if int(x_answ) == x_answ else x_answ
-		self.x = x_answ - z_coef * self.z - y_coef * self.y
-		self.x = int(self.x) if int(self.x) == self.x else self.x
-		self.x_value_label.setText('{} - {}z - {}y = {} - {} * {} - {} * {} = {}'.format(x_answ, z_coef, y_coef, x_answ, z_coef, self.z, y_coef, self.y, self.x))
-
 def __main__():
+	print('¯\_(ツ)_/¯')
 	app = QtWidgets.QApplication([])
-	window = Gauss()
+	window = MatrixMethod()
 	window.show()
 	app.exec_()
 

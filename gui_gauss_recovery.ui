@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1285</width>
-    <height>711</height>
+    <width>1535</width>
+    <height>924</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QLabel" name="brace_label">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>30</y>
-      <width>21</width>
-      <height>111</height>
+      <x>180</x>
+      <y>20</y>
+      <width>41</width>
+      <height>161</height>
      </rect>
     </property>
     <property name="text">
@@ -33,10 +33,10 @@
    <widget class="QLabel" name="matrixA_bracket_label_1">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>160</y>
-      <width>21</width>
-      <height>111</height>
+      <x>120</x>
+      <y>200</y>
+      <width>61</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -49,15 +49,15 @@
    <widget class="QLabel" name="matrixA_label_11">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>170</y>
+      <x>160</x>
+      <y>210</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -72,15 +72,15 @@
    <widget class="QLabel" name="matrixA_label_21">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>200</y>
+      <x>160</x>
+      <y>260</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -95,15 +95,15 @@
    <widget class="QLabel" name="matrixA_label_31">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>230</y>
+      <x>160</x>
+      <y>310</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -118,15 +118,15 @@
    <widget class="QLabel" name="matrixA_label_12">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>170</y>
+      <x>260</x>
+      <y>210</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -141,15 +141,15 @@
    <widget class="QLabel" name="matrixA_label_32">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>230</y>
+      <x>260</x>
+      <y>310</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -164,15 +164,15 @@
    <widget class="QLabel" name="matrixA_label_22">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>200</y>
+      <x>260</x>
+      <y>260</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -187,15 +187,15 @@
    <widget class="QLabel" name="matrixA_label_13">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>170</y>
+      <x>360</x>
+      <y>210</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -210,15 +210,15 @@
    <widget class="QLabel" name="matrixA_label_33">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>230</y>
+      <x>360</x>
+      <y>310</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -233,15 +233,15 @@
    <widget class="QLabel" name="matrixA_label_23">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>200</y>
+      <x>360</x>
+      <y>260</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -256,10 +256,10 @@
    <widget class="QLabel" name="matrixA_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>160</y>
-      <width>21</width>
-      <height>111</height>
+      <x>450</x>
+      <y>200</y>
+      <width>51</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -272,15 +272,15 @@
    <widget class="QLabel" name="matrixB_1">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>170</y>
+      <x>640</x>
+      <y>210</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -295,15 +295,15 @@
    <widget class="QLabel" name="matrixB_3">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>230</y>
+      <x>640</x>
+      <y>310</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -318,15 +318,15 @@
    <widget class="QLabel" name="matrixB_2">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>200</y>
+      <x>640</x>
+      <y>260</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -341,10 +341,10 @@
    <widget class="QLabel" name="matrixB_bracket_label_1">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>160</y>
-      <width>21</width>
-      <height>111</height>
+      <x>600</x>
+      <y>200</y>
+      <width>51</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -357,10 +357,10 @@
    <widget class="QLabel" name="matrixB_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>160</y>
-      <width>21</width>
-      <height>111</height>
+      <x>710</x>
+      <y>200</y>
+      <width>51</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -373,50 +373,50 @@
    <widget class="QLabel" name="matrixA_label">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>200</y>
+      <x>40</x>
+      <y>260</y>
       <width>71</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>A = </string>
+     <string>A =</string>
     </property>
    </widget>
    <widget class="QLabel" name="matrixB_label">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>200</y>
+      <x>530</x>
+      <y>260</y>
       <width>71</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>B = </string>
+     <string>B =</string>
     </property>
    </widget>
    <widget class="QLabel" name="matrix1_bracket_label_1">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>300</y>
-      <width>21</width>
-      <height>111</height>
+      <x>0</x>
+      <y>400</y>
+      <width>61</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -429,15 +429,15 @@
    <widget class="QLabel" name="matrix_1_31">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>370</y>
+      <x>40</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -452,15 +452,15 @@
    <widget class="QLabel" name="matrix_1_23">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>340</y>
+      <x>240</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -475,15 +475,15 @@
    <widget class="QLabel" name="matrix_1_11">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>310</y>
+      <x>40</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -498,15 +498,15 @@
    <widget class="QLabel" name="matrix_1_22">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>340</y>
+      <x>140</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -521,15 +521,15 @@
    <widget class="QLabel" name="matrix_1_32">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>370</y>
+      <x>140</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -544,15 +544,15 @@
    <widget class="QLabel" name="matrix_1_33">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>370</y>
+      <x>240</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -567,15 +567,15 @@
    <widget class="QLabel" name="matrix_1_12">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>310</y>
+      <x>140</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -590,15 +590,15 @@
    <widget class="QLabel" name="matrix_1_13">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>310</y>
+      <x>240</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -613,15 +613,15 @@
    <widget class="QLabel" name="matrix_1_21">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>340</y>
+      <x>40</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -636,10 +636,10 @@
    <widget class="QLabel" name="matrix1_vertLine_label">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>310</y>
+      <x>343</x>
+      <y>405</y>
       <width>21</width>
-      <height>101</height>
+      <height>161</height>
      </rect>
     </property>
     <property name="font">
@@ -659,15 +659,15 @@
    <widget class="QLabel" name="matrix_1_14">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>310</y>
+      <x>350</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -682,15 +682,15 @@
    <widget class="QLabel" name="matrix_1_24">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>340</y>
+      <x>350</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -705,15 +705,15 @@
    <widget class="QLabel" name="matrix_1_34">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>370</y>
+      <x>350</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -728,10 +728,10 @@
    <widget class="QLabel" name="matrix1_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>300</y>
-      <width>21</width>
-      <height>111</height>
+      <x>430</x>
+      <y>400</y>
+      <width>51</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -744,15 +744,15 @@
    <widget class="QLabel" name="tilde_label_1">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>340</y>
-      <width>41</width>
+      <x>480</x>
+      <y>460</y>
+      <width>51</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>50</pointsize>
+      <pointsize>55</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -764,15 +764,15 @@
    <widget class="QLabel" name="matrix_2_11">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>310</y>
+      <x>560</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -787,15 +787,15 @@
    <widget class="QLabel" name="matrix_2_32">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>370</y>
+      <x>660</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -810,15 +810,15 @@
    <widget class="QLabel" name="matrix_2_34">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>370</y>
+      <x>870</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -833,15 +833,15 @@
    <widget class="QLabel" name="matrix_2_33">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>370</y>
+      <x>760</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -856,15 +856,15 @@
    <widget class="QLabel" name="matrix_2_21">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>340</y>
+      <x>560</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -879,15 +879,15 @@
    <widget class="QLabel" name="matrix_2_23">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>340</y>
+      <x>760</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -902,15 +902,15 @@
    <widget class="QLabel" name="matrix_2_12">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>310</y>
+      <x>660</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -925,15 +925,15 @@
    <widget class="QLabel" name="matrix_2_13">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>310</y>
+      <x>760</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -948,15 +948,15 @@
    <widget class="QLabel" name="matrix_2_31">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>370</y>
+      <x>560</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -971,10 +971,10 @@
    <widget class="QLabel" name="matrix2_bracket_label_1">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>300</y>
-      <width>21</width>
-      <height>111</height>
+      <x>522</x>
+      <y>400</y>
+      <width>61</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -987,15 +987,15 @@
    <widget class="QLabel" name="matrix_2_24">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>340</y>
+      <x>870</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1010,15 +1010,15 @@
    <widget class="QLabel" name="matrix_2_14">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>310</y>
+      <x>870</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1033,10 +1033,10 @@
    <widget class="QLabel" name="matrix2_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>300</y>
-      <width>21</width>
-      <height>111</height>
+      <x>950</x>
+      <y>400</y>
+      <width>51</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -1049,15 +1049,15 @@
    <widget class="QLabel" name="matrix_2_22">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>340</y>
+      <x>660</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1072,15 +1072,15 @@
    <widget class="QLabel" name="matrix_3_21">
     <property name="geometry">
      <rect>
-      <x>910</x>
-      <y>340</y>
+      <x>1080</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1095,15 +1095,15 @@
    <widget class="QLabel" name="matrix_3_31">
     <property name="geometry">
      <rect>
-      <x>910</x>
-      <y>370</y>
+      <x>1080</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1118,10 +1118,10 @@
    <widget class="QLabel" name="matrix3_bracket_label_1">
     <property name="geometry">
      <rect>
-      <x>900</x>
-      <y>300</y>
-      <width>21</width>
-      <height>111</height>
+      <x>1040</x>
+      <y>400</y>
+      <width>61</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -1134,15 +1134,15 @@
    <widget class="QLabel" name="matrix_3_34">
     <property name="geometry">
      <rect>
-      <x>1180</x>
-      <y>370</y>
+      <x>1390</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1157,15 +1157,15 @@
    <widget class="QLabel" name="matrix_3_33">
     <property name="geometry">
      <rect>
-      <x>1070</x>
-      <y>370</y>
+      <x>1280</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1180,15 +1180,15 @@
    <widget class="QLabel" name="matrix_3_11">
     <property name="geometry">
      <rect>
-      <x>910</x>
-      <y>310</y>
+      <x>1080</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1203,15 +1203,15 @@
    <widget class="QLabel" name="matrix_3_32">
     <property name="geometry">
      <rect>
-      <x>990</x>
-      <y>370</y>
+      <x>1180</x>
+      <y>510</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1226,15 +1226,15 @@
    <widget class="QLabel" name="matrix_3_23">
     <property name="geometry">
      <rect>
-      <x>1070</x>
-      <y>340</y>
+      <x>1280</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1249,10 +1249,10 @@
    <widget class="QLabel" name="matrix3_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>1260</x>
-      <y>300</y>
-      <width>21</width>
-      <height>111</height>
+      <x>1470</x>
+      <y>400</y>
+      <width>51</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -1262,18 +1262,38 @@
      <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
-   <widget class="QLabel" name="matrix_3_13">
+   <widget class="QLabel" name="tilde_label_2">
     <property name="geometry">
      <rect>
-      <x>1070</x>
-      <y>310</y>
-      <width>95</width>
+      <x>1000</x>
+      <y>460</y>
+      <width>51</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>55</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="matrix_3_13">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>410</y>
+      <width>95</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1288,15 +1308,15 @@
    <widget class="QLabel" name="matrix_3_14">
     <property name="geometry">
      <rect>
-      <x>1180</x>
-      <y>310</y>
+      <x>1390</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1311,15 +1331,15 @@
    <widget class="QLabel" name="matrix_3_22">
     <property name="geometry">
      <rect>
-      <x>990</x>
-      <y>340</y>
+      <x>1180</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1334,15 +1354,15 @@
    <widget class="QLabel" name="matrix_3_12">
     <property name="geometry">
      <rect>
-      <x>990</x>
-      <y>310</y>
+      <x>1180</x>
+      <y>410</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1357,15 +1377,15 @@
    <widget class="QLabel" name="matrix_3_24">
     <property name="geometry">
      <rect>
-      <x>1180</x>
-      <y>340</y>
+      <x>1390</x>
+      <y>460</y>
       <width>95</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1380,15 +1400,15 @@
    <widget class="QLabel" name="matrix2_vertLine_label">
     <property name="geometry">
      <rect>
-      <x>730</x>
-      <y>310</y>
+      <x>862</x>
+      <y>405</y>
       <width>21</width>
-      <height>101</height>
+      <height>161</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1403,10 +1423,10 @@
    <widget class="QLabel" name="matrix3_vertLine_label">
     <property name="geometry">
      <rect>
-      <x>1170</x>
-      <y>310</y>
+      <x>1382</x>
+      <y>405</y>
       <width>21</width>
-      <height>101</height>
+      <height>171</height>
      </rect>
     </property>
     <property name="font">
@@ -1426,15 +1446,15 @@
    <widget class="QLabel" name="augmentMatrix_label_33">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>230</y>
+      <x>1090</x>
+      <y>310</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1449,10 +1469,10 @@
    <widget class="QLabel" name="augmentMatrix_bracket_label_1">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>160</y>
-      <width>21</width>
-      <height>111</height>
+      <x>850</x>
+      <y>200</y>
+      <width>61</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -1465,15 +1485,15 @@
    <widget class="QLabel" name="augmentMatrix_label_11">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>170</y>
+      <x>890</x>
+      <y>210</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1488,15 +1508,15 @@
    <widget class="QLabel" name="augmentMatrix_label_21">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>200</y>
+      <x>890</x>
+      <y>260</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1511,15 +1531,15 @@
    <widget class="QLabel" name="augmentMatrix_label_22">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>200</y>
+      <x>990</x>
+      <y>260</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1534,15 +1554,15 @@
    <widget class="QLabel" name="augmentMatrix_label_24">
     <property name="geometry">
      <rect>
-      <x>920</x>
-      <y>200</y>
+      <x>1190</x>
+      <y>260</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1557,10 +1577,10 @@
    <widget class="QLabel" name="augmentMatrix_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>1000</x>
-      <y>160</y>
-      <width>21</width>
-      <height>111</height>
+      <x>1260</x>
+      <y>200</y>
+      <width>51</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
@@ -1573,15 +1593,15 @@
    <widget class="QLabel" name="augmentMatrix_label_34">
     <property name="geometry">
      <rect>
-      <x>920</x>
-      <y>230</y>
+      <x>1190</x>
+      <y>310</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1596,15 +1616,15 @@
    <widget class="QLabel" name="augmentMatrix_label_13">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>170</y>
+      <x>1090</x>
+      <y>210</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1619,15 +1639,15 @@
    <widget class="QLabel" name="augmentMatrix_label_32">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>230</y>
+      <x>990</x>
+      <y>310</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1642,15 +1662,15 @@
    <widget class="QLabel" name="augmentMatrix_label_31">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>230</y>
+      <x>890</x>
+      <y>310</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1665,15 +1685,15 @@
    <widget class="QLabel" name="augmentMatrix_label_12">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>170</y>
+      <x>990</x>
+      <y>210</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1688,15 +1708,15 @@
    <widget class="QLabel" name="augmentMatrix_label_14">
     <property name="geometry">
      <rect>
-      <x>920</x>
-      <y>170</y>
+      <x>1190</x>
+      <y>210</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1711,15 +1731,15 @@
    <widget class="QLabel" name="augmentMatrix_label_23">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>200</y>
+      <x>1090</x>
+      <y>260</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1734,10 +1754,10 @@
    <widget class="QLabel" name="augmentMatrix_vertLine_label">
     <property name="geometry">
      <rect>
-      <x>910</x>
-      <y>170</y>
+      <x>1180</x>
+      <y>200</y>
       <width>21</width>
-      <height>101</height>
+      <height>171</height>
      </rect>
     </property>
     <property name="font">
@@ -1758,14 +1778,14 @@
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>40</y>
+      <y>20</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1781,14 +1801,14 @@
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>60</y>
+      <y>70</y>
       <width>31</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1804,14 +1824,14 @@
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>100</y>
+      <y>120</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1827,14 +1847,14 @@
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>40</y>
+      <y>20</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1850,14 +1870,14 @@
     <property name="geometry">
      <rect>
       <x>600</x>
-      <y>40</y>
+      <y>20</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1873,14 +1893,14 @@
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>100</y>
+      <y>130</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1896,14 +1916,14 @@
     <property name="geometry">
      <rect>
       <x>660</x>
-      <y>40</y>
+      <y>20</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1924,12 +1944,12 @@
       <x>210</x>
       <y>70</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1947,12 +1967,12 @@
       <x>600</x>
       <y>70</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1968,14 +1988,14 @@
     <property name="geometry">
      <rect>
       <x>630</x>
-      <y>100</y>
+      <y>130</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1991,14 +2011,14 @@
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>70</y>
+      <y>80</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2014,14 +2034,14 @@
     <property name="geometry">
      <rect>
       <x>660</x>
-      <y>100</y>
+      <y>120</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2037,14 +2057,14 @@
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>100</y>
+      <y>120</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2060,14 +2080,14 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>100</y>
+      <y>120</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2085,12 +2105,12 @@
       <x>300</x>
       <y>70</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2109,14 +2129,14 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>40</y>
+      <y>20</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2132,14 +2152,14 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>40</y>
+      <y>30</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2149,14 +2169,14 @@
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>30</y>
+      <y>20</y>
       <width>31</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2172,14 +2192,14 @@
     <property name="geometry">
      <rect>
       <x>630</x>
-      <y>70</y>
+      <y>80</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2195,14 +2215,14 @@
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>40</y>
+      <y>30</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2220,12 +2240,12 @@
       <x>360</x>
       <y>70</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2243,12 +2263,12 @@
       <x>660</x>
       <y>70</y>
       <width>81</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2264,20 +2284,20 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>40</y>
+      <y>20</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>1</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -2290,14 +2310,14 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>100</y>
+      <y>120</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2315,12 +2335,12 @@
       <x>510</x>
       <y>70</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2336,14 +2356,14 @@
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>40</y>
+      <y>30</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2359,14 +2379,14 @@
     <property name="geometry">
      <rect>
       <x>600</x>
-      <y>100</y>
+      <y>120</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2382,14 +2402,14 @@
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>70</y>
+      <y>80</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2405,14 +2425,14 @@
     <property name="geometry">
      <rect>
       <x>630</x>
-      <y>40</y>
+      <y>30</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2428,14 +2448,14 @@
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>90</y>
+      <y>120</y>
       <width>31</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2451,14 +2471,14 @@
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>100</y>
+      <y>130</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2474,14 +2494,14 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>40</y>
+      <y>30</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2491,14 +2511,14 @@
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>40</y>
+      <y>30</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2508,14 +2528,14 @@
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>40</y>
+      <y>30</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2525,14 +2545,14 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>70</y>
+      <y>80</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2542,14 +2562,14 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>70</y>
+      <y>80</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2559,14 +2579,14 @@
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>70</y>
+      <y>80</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2576,14 +2596,14 @@
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>70</y>
+      <y>80</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2593,14 +2613,14 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>100</y>
+      <y>130</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2610,14 +2630,14 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>100</y>
+      <y>130</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2627,14 +2647,14 @@
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>100</y>
+      <y>130</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2644,14 +2664,14 @@
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>100</y>
+      <y>130</y>
       <width>90</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2673,10 +2693,10 @@
    <widget class="QLabel" name="brace_label_2">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>430</y>
-      <width>21</width>
-      <height>111</height>
+      <x>10</x>
+      <y>590</y>
+      <width>41</width>
+      <height>161</height>
      </rect>
     </property>
     <property name="text">
@@ -2689,15 +2709,15 @@
    <widget class="QLabel" name="result_system_label_12">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>430</y>
+      <x>190</x>
+      <y>590</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2712,15 +2732,15 @@
    <widget class="QLabel" name="result_system_answer_label_1">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>430</y>
+      <x>490</x>
+      <y>590</y>
       <width>341</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2735,15 +2755,15 @@
    <widget class="QLabel" name="result_system_label_13">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>430</y>
+      <x>340</x>
+      <y>590</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2758,15 +2778,15 @@
    <widget class="QLabel" name="label_27">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>430</y>
+      <x>460</x>
+      <y>600</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2781,15 +2801,15 @@
    <widget class="QLabel" name="label_21">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>500</y>
+      <x>160</x>
+      <y>700</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2804,15 +2824,15 @@
    <widget class="QLabel" name="label_28">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>500</y>
+      <x>310</x>
+      <y>700</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2830,15 +2850,15 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>500</y>
+      <x>60</x>
+      <y>690</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2853,15 +2873,15 @@
    <widget class="QLabel" name="x31_label_3">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>430</y>
+      <x>430</x>
+      <y>590</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2876,15 +2896,15 @@
    <widget class="QLabel" name="result_system_answer_label_2">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>460</y>
+      <x>490</x>
+      <y>640</y>
       <width>341</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2899,15 +2919,15 @@
    <widget class="QLabel" name="result_system_answer_label_3">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>500</y>
+      <x>490</x>
+      <y>690</y>
       <width>341</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2922,15 +2942,15 @@
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>460</y>
+      <x>310</x>
+      <y>650</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2945,15 +2965,15 @@
    <widget class="QLabel" name="x11_label_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>430</y>
+      <x>130</x>
+      <y>590</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2968,15 +2988,15 @@
    <widget class="QLabel" name="result_system_label_33">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>500</y>
+      <x>340</x>
+      <y>690</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2991,15 +3011,15 @@
    <widget class="QLabel" name="label_29">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>500</y>
+      <x>460</x>
+      <y>700</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3014,15 +3034,15 @@
    <widget class="QLabel" name="x21_label_3">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>420</y>
+      <x>280</x>
+      <y>590</y>
       <width>31</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3037,15 +3057,15 @@
    <widget class="QLabel" name="x32_label_3">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>460</y>
+      <x>430</x>
+      <y>640</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3060,15 +3080,15 @@
    <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>460</y>
+      <x>460</x>
+      <y>650</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3083,15 +3103,15 @@
    <widget class="QLabel" name="result_system_label_32">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>500</y>
+      <x>210</x>
+      <y>690</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3109,15 +3129,15 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>430</y>
+      <x>40</x>
+      <y>590</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3132,15 +3152,15 @@
    <widget class="QLabel" name="label_22">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>430</y>
+      <x>160</x>
+      <y>600</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3155,15 +3175,15 @@
    <widget class="QLabel" name="result_system_label_22">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>460</y>
+      <x>190</x>
+      <y>640</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3178,15 +3198,15 @@
    <widget class="QLabel" name="label_30">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>430</y>
+      <x>310</x>
+      <y>600</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3201,15 +3221,15 @@
    <widget class="QLabel" name="label_31">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>460</y>
+      <x>160</x>
+      <y>650</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3224,15 +3244,15 @@
    <widget class="QLabel" name="x33_label_3">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>500</y>
+      <x>430</x>
+      <y>690</y>
       <width>31</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3247,15 +3267,15 @@
    <widget class="QLabel" name="result_system_label_23">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>460</y>
+      <x>340</x>
+      <y>640</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3273,15 +3293,15 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>460</y>
+      <x>60</x>
+      <y>640</y>
       <width>91</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3296,15 +3316,15 @@
    <widget class="QLabel" name="x22_label_3">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>450</y>
+      <x>280</x>
+      <y>640</y>
       <width>31</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3319,15 +3339,15 @@
    <widget class="QLabel" name="z_label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>580</y>
+      <x>70</x>
+      <y>750</y>
       <width>61</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3340,14 +3360,14 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>580</y>
+      <y>750</y>
       <width>1021</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3359,15 +3379,15 @@
    <widget class="QLabel" name="y_label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>610</y>
+      <x>70</x>
+      <y>790</y>
       <width>61</width>
-      <height>41</height>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3380,14 +3400,14 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>610</y>
-      <width>1121</width>
-      <height>31</height>
+      <y>790</y>
+      <width>1391</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3399,15 +3419,15 @@
    <widget class="QLabel" name="x_label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>660</y>
+      <x>70</x>
+      <y>860</y>
       <width>61</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3420,40 +3440,20 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>660</y>
-      <width>1121</width>
-      <height>31</height>
+      <y>850</y>
+      <width>1391</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
      <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="tilde_label_2">
-    <property name="geometry">
-     <rect>
-      <x>850</x>
-      <y>340</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>50</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>~</string>
     </property>
    </widget>
   </widget>

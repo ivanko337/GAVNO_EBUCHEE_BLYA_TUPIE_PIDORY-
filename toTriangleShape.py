@@ -1,7 +1,7 @@
 #coding=utf-8
 
 from copy import deepcopy
-from MatrixAlghoritms import printMatr, addRows, mulL
+from MatrixAlghoritms import addRows, mulL
 from MyMatrix import Matrix
 from numpy import around
 
@@ -28,14 +28,9 @@ def toTriangleShape(matr):
 		for j in range(i + 1, len(matr)):
 			coefficient = float(matr[j][i]) / float(matr[i][i])
 			coefficient = -coefficient
-			print('i: {}, coefficient: {}'.format(i, coefficient))
-			print('{} {}'.format(matr[i], matr[j]))
 			matr[j] = addRows(matr, i, j, coefficient)
-			print('{} {}'.format(matr[i], matr[j]))
 		if i != 2:
 			res.append(normalizeZeros(matr))
-		printMatr(matr)
-		print('')
 	for i in range(len(matr)):
 		if matr[i][i] != 0:
 			matr[i] = mulL(matr[i], 1. / matr[i][i])

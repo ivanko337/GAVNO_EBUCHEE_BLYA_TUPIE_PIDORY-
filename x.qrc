@@ -3,6 +3,9 @@
     <file>x1.png</file>
   </qresource>
   <qresource prefix="newPrefix">
+    <file>table.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
     <file>x2.png</file>
   </qresource>
   <qresource prefix="newPrefix">
