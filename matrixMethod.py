@@ -98,7 +98,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 
 		self.actions = [ self.showABMatrixWidgets, self.showAugmentMatrixWidgets, self.showFirstMatrixWidgets, self.showSecondMatrixWidgets, self.showThirdMatrixWidgets,
 				self.showFourthMatrixWidgets, self.showFifthMatrixWidgets, self.showSixthMatrixWidgets, self.showSeventhMatrixWidgets, self.showResultMatrixWidgets,
-				self.refreshMatrix7Labels ]
+				self.refreshMatrix7Labels, self.showXValue, self.showYValue, self.showZValue ]
 
 		self.normalizeLineEdits()
 		self.hideAll()
@@ -184,6 +184,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		j = 0
 		for i in self.matrixList[1]:
 			for k in i:
+				k = round(k, 2)
 				self.matrix2Labels[j].setText(str(int(k) if int(k) == k else k))
 				j += 1
 
@@ -194,6 +195,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		j = 0
 		for i in self.matrixList[2]:
 			for k in i:
+				k = round(k, 2)
 				self.matrix3Labels[j].setText(str(int(k) if int(k) == k else k))
 				j += 1
 
@@ -203,6 +205,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		j = 0
 		for i in self.matrixList[3]:
 			for k in i:
+				k = round(k, 2)
 				self.matrix4Labels[j].setText(str(int(k) if int(k) == k else k))
 				j += 1
 
@@ -212,6 +215,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		j = 0
 		for i in self.matrixList[4]:
 			for k in i:
+				k = round(k, 2)
 				self.matrix5Labels[j].setText(str(int(k) if int(k) == k else k))
 				j += 1
 
@@ -221,6 +225,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		j = 0
 		for i in self.matrixList[5]:
 			for k in i:
+				k = round(k, 2)
 				self.matrix6Labels[j].setText(str(int(k) if int(k) == k else k))
 				j += 1
 
@@ -230,6 +235,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		j = 0
 		for i in self.matrixList[6]:
 			for k in i:
+				k = round(k, 2)
 				self.matrix7Labels[j].setText(str(int(k) if int(k) == k else k))
 				j += 1
 
@@ -237,6 +243,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		j = 0
 		for i in self.matrixList[0]:
 			for k in i:
+				k = round(k, 2)
 				self.matrix1Labels[j].setText(str(int(k) if int(k) == k else k))
 				j += 1
 
@@ -293,6 +300,21 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 			else:
 				self.resultSystemAnswerLabels[k].setText(self.matrix7Labels[i].text())
 				k += 1
+
+	def showXValue(self):
+		self.x_label.show()
+		self.x_value_label.show()
+		self.x_value_label.setText(self.result_system_answer_label_1.text())
+
+	def showYValue(self):
+		self.y_label.show()
+		self.y_value_label.show()
+		self.y_value_label.setText(self.result_system_answer_label_2.text())
+
+	def showZValue(self):
+		self.z_label.show()
+		self.z_value_label.show()
+		self.z_value_label.setText(self.result_system_answer_label_3.text())
 
 def __main__():
 	print('¯\_(ツ)_/¯')
