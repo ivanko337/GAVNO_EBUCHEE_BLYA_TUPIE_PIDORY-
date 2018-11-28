@@ -3,6 +3,15 @@
     <file>x1.png</file>
   </qresource>
   <qresource prefix="newPrefix">
+    <file>braces_2.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>skobka2_recovery.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>skobka1_recovery.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
     <file>table.png</file>
   </qresource>
   <qresource prefix="newPrefix">

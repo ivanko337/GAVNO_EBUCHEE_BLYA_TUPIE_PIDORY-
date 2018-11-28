@@ -4,8 +4,8 @@
 from matrixMethod_gui import Ui_MainWindow
 from PyQt5 import QtWidgets, QtCore
 from MyMatrix import Matrix
-from MatrixAlghoritms import addColumn, printMatr
-from toTriangleShape import toTriangleShape
+from MatrixAlghoritms import addColumn
+from toUnitShape import toUnitShape
 
 class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 	def __init__(self):
@@ -66,13 +66,20 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.matrix4Labels = [ self.matrix_4_11, self.matrix_4_12, self.matrix_4_13, self.matrix_4_14,
 					self.matrix_4_21, self.matrix_4_22, self.matrix_4_23, self.matrix_4_24,
 					self.matrix_4_31, self.matrix_4_32, self.matrix_4_33, self.matrix_4_34 ]
-		self.matrix4Widgets = [ self.tilde_label_5, self.tilde_label_6, self.matrix4_bracket_label_1, selfmatrix4_bracket_label_2, self.matrix4_vertLine_label ]
+		self.matrix4Widgets = [ self.tilde_label_5, self.tilde_label_6, self.matrix4_bracket_label_1, self.matrix4_bracket_label_2, self.matrix4_vertLine_label ]
 		self.matrix5Labels = [ self.matrix_5_11, self.matrix_5_12, self.matrix_5_13, self.matrix_5_14,
 					self.matrix_5_21, self.matrix_5_22, self.matrix_5_23, self.matrix_5_24,
 					self.matrix_5_31, self.matrix_5_32, self.matrix_5_33, self.matrix_5_34 ]
-		self.matrix5Widgets = [ self.tilde_label_3, self.matrix5_bracket_label_1, selfmatrix5_bracket_label_2, self.matrix5_vertLine_label ]
-#		self.
-		self.matrix6Widgets = [ self.tilde_label_3, self.matrix6_bracket_label_1, selfmatrix6_bracket_label_2, self.matrix6_vertLine_label ]
+		self.matrix5Widgets = [ self.tilde_label_3, self.matrix5_bracket_label_1, self.matrix5_bracket_label_2, self.matrix5_vertLine_label ]
+		self.matrix6Labels = [ self.matrix_6_11, self.matrix_6_12, self.matrix_6_13, self.matrix_6_14,
+					self.matrix_6_21, self.matrix_6_22, self.matrix_6_23, self.matrix_6_24,
+					self.matrix_6_31, self.matrix_6_32, self.matrix_6_33, self.matrix_6_34 ]
+		self.matrix6Widgets = [ self.tilde_label_4, self.matrix6_bracket_label_1, self.matrix6_bracket_label_2, self.matrix6_vertLine_label ]
+		self.matrix7Labels = [ self.matrix_7_11, self.matrix_7_12, self.matrix_7_13, self.matrix_7_14,
+					self.matrix_7_21, self.matrix_7_22, self.matrix_7_23, self.matrix_7_24,
+					self.matrix_7_31, self.matrix_7_32, self.matrix_7_33, self.matrix_7_34 ]
+		self.matrix7LabelsCoordinates = [ (i.pos().x(), i.pos().y()) for i in self.matrix7Labels ]
+		self.matrix7Widgets = [ self.tilde_label_7, self.tilde_label_8, self.matrix7_bracket_label_1, self.matrix7_bracket_label_2, self.matrix7_vertLine_label ]
 
 		self.resultSystemWidgets = [ self.brace_label_2, self.label_16, self.label_19, self.label_21, self.label_22, self.label_27, self.label_28, self.label_29, self.label_30, self.label_31,
 							self.x11_label_3, self.x22_label_3, self.x33_label_3 ]
@@ -86,10 +93,12 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 
 		self.values = [self.z_label, self.z_value_label, self.y_label, self.y_value_label, self.x_label, self.x_value_label]
 
-		self.hide = [self.augmentMatrixWidgets, self.matrixABWidgets, self.matrix1Widgets, self.matrix2Widgets, self.matrix3Widgets, self.resultSystemWidgets, self.values]
+		self.hide = [self.augmentMatrixWidgets, self.matrixABWidgets, self.matrix1Widgets, self.matrix2Widgets, self.matrix3Widgets, self.resultSystemWidgets, self.values,
+				self.matrix4Widgets, self.matrix5Widgets, self.matrix6Widgets, self.matrix7Widgets]
 
 		self.actions = [ self.showABMatrixWidgets, self.showAugmentMatrixWidgets, self.showFirstMatrixWidgets, self.showSecondMatrixWidgets, self.showThirdMatrixWidgets,
-				self.showResultMatrixWidgets, self.refreshMatrix3Labels ]
+				self.showFourthMatrixWidgets, self.showFifthMatrixWidgets, self.showSixthMatrixWidgets, self.showSeventhMatrixWidgets, self.showResultMatrixWidgets,
+				self.refreshMatrix7Labels ]
 
 		self.normalizeLineEdits()
 		self.hideAll()
@@ -113,8 +122,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 
 	def createAugmentMatrix(self):
 		self.matrixAB = addColumn(self.matrix, self.matrixB)
-		self.matrixList = toTriangleShape(self.matrixAB)
-		printMatr(self.matrixList)
+		self.matrixList = toUnitShape(self.matrixAB)
 
 	def nextAction(self):
 		if self.count == len(self.actions):
@@ -189,6 +197,42 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 				self.matrix3Labels[j].setText(str(int(k) if int(k) == k else k))
 				j += 1
 
+	def showFourthMatrixWidgets(self):
+		for i in range(len(self.matrix4Widgets)):
+			self.matrix4Widgets[i].show()
+		j = 0
+		for i in self.matrixList[3]:
+			for k in i:
+				self.matrix4Labels[j].setText(str(int(k) if int(k) == k else k))
+				j += 1
+
+	def showFifthMatrixWidgets(self):
+		for i in range(len(self.matrix5Widgets)):
+			self.matrix5Widgets[i].show()
+		j = 0
+		for i in self.matrixList[4]:
+			for k in i:
+				self.matrix5Labels[j].setText(str(int(k) if int(k) == k else k))
+				j += 1
+
+	def showSixthMatrixWidgets(self):
+		for i in range(len(self.matrix6Widgets)):
+			self.matrix6Widgets[i].show()
+		j = 0
+		for i in self.matrixList[5]:
+			for k in i:
+				self.matrix6Labels[j].setText(str(int(k) if int(k) == k else k))
+				j += 1
+
+	def showSeventhMatrixWidgets(self):
+		for i in range(len(self.matrix7Widgets)):
+			self.matrix7Widgets[i].show()
+		j = 0
+		for i in self.matrixList[6]:
+			for k in i:
+				self.matrix7Labels[j].setText(str(int(k) if int(k) == k else k))
+				j += 1
+
 	def fillFirstMatrixLabels(self):
 		j = 0
 		for i in self.matrixList[0]:
@@ -223,31 +267,31 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 	def showResultMatrixWidgets(self):
 		for i in range(len(self.resultSystemWidgets)):
 			self.resultSystemWidgets[i].show()
-		self.setThirdMatrixLabelsCoordinates()
+		self.setSeventhMatrixLabelsCoordinates()
 
-	def setThirdMatrixLabelsCoordinates(self):
+	def setSeventhMatrixLabelsCoordinates(self):
 		j = 0
 		for i in range(len(self.matrix3Labels)):
-			if self.matrix3Labels[i].objectName()[-1] != '4':
-				self.matrix3Labels[i].setCoordinates(QtCore.QPoint(*self.resultSystemLabelsCoordinates[j]))
+			if self.matrix7Labels[i].objectName()[-1] != '4':
+				self.matrix7Labels[i].setCoordinates(QtCore.QPoint(*self.resultSystemLabelsCoordinates[j]))
 				j += 1
 		j = 0
-		for i in range(len(self.matrix3Labels)):
-			if self.matrix3Labels[i].objectName()[-1] == '4':
-				self.matrix3Labels[i].setCoordinates(QtCore.QPoint(*self.resultSystemAnswerLabelsCoordinates[j]))
+		for i in range(len(self.matrix7Labels)):
+			if self.matrix7Labels[i].objectName()[-1] == '4':
+				self.matrix7Labels[i].setCoordinates(QtCore.QPoint(*self.resultSystemAnswerLabelsCoordinates[j]))
 				j += 1
 
-	def refreshMatrix3Labels(self):
-		for i in range(len(self.matrix3Labels)):
-			self.matrix3Labels[i].move(*self.matrix3LabelsCoordinates[i])
+	def refreshMatrix7Labels(self):
+		for i in range(len(self.matrix7Labels)):
+			self.matrix7Labels[i].move(*self.matrix7LabelsCoordinates[i])
 		j = 0
 		k = 0
-		for i in range(len(self.matrix3Labels)):
-			if self.matrix3Labels[i].objectName()[-1] != '4':
-				self.resultSystemLabels[j].setText(self.matrix3Labels[i].text())
+		for i in range(len(self.matrix7Labels)):
+			if self.matrix7Labels[i].objectName()[-1] != '4':
+				self.resultSystemLabels[j].setText(self.matrix7Labels[i].text())
 				j += 1
 			else:
-				self.resultSystemAnswerLabels[k].setText(self.matrix3Labels[i].text())
+				self.resultSystemAnswerLabels[k].setText(self.matrix7Labels[i].text())
 				k += 1
 
 def __main__():

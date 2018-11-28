@@ -243,6 +243,7 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.z_label.show()
 		self.z_value_label.show()
 		self.z = float(self.result_system_answer_label_3.text())
+		self.z = round(self.z, 2)
 		self.z = int(self.z) if int(self.z) == self.z else self.z
 		self.z_value_label.setText(str(self.z))
 
@@ -254,6 +255,7 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.y_label.show()
 		self.y_value_label.show()
 		self.y = y_answ - z_coef * self.z
+		self.y = round(self.y, 2)
 		self.y = int(self.y) if int(self.y) == self.y else self.y
 		self.y_value_label.setText('{} - {}z = {} - {} * {} = {}'.format(y_answ, z_coef, y_answ, z_coef, self.z, self.y))
 
@@ -267,6 +269,7 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 		x_answ = round(float(self.result_system_answer_label_1.text()), 2)
 		x_answ = int(x_answ) if int(x_answ) == x_answ else x_answ
 		self.x = x_answ - z_coef * self.z - y_coef * self.y
+		self.x = round(self.x, 2)
 		self.x = int(self.x) if int(self.x) == self.x else self.x
 		self.x_value_label.setText('{} - {}z - {}y = {} - {} * {} - {} * {} = {}'.format(x_answ, z_coef, y_coef, x_answ, z_coef, self.z, y_coef, self.y, self.x))
 

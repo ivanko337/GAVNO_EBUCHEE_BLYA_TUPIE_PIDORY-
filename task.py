@@ -91,6 +91,14 @@ class Ui_MainWindow(object):
         self.label_3.setText("")
         self.label_3.setPixmap(QtGui.QPixmap("table.png"))
         self.label_3.setObjectName("label_3")
+        self.pushButton_Matrix = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_Matrix.setGeometry(QtCore.QRect(420, 700, 251, 31))
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_Matrix.setFont(font)
+        self.pushButton_Matrix.setObjectName("pushButton_Matrix")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -117,5 +125,4 @@ class Ui_MainWindow(object):
 "формуле условия выполнения всего задания по заготовкам А, Б и В."))
         self.pushButton_Cramer.setText(_translate("MainWindow", "Метод Крамера"))
         self.pushButton_Gauss.setText(_translate("MainWindow", "Метод Гаусса"))
-
-import x_rc
+        self.pushButton_Matrix.setText(_translate("MainWindow", "Матричный способ"))

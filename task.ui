@@ -219,6 +219,26 @@ x + 6y + 2z = 300
      <pixmap resource="x.qrc">:/newPrefix/table.png</pixmap>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_Matrix">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>700</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Матричный способ</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources>

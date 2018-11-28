@@ -14,6 +14,23 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="argument_lineEdit_21">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>70</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
    <widget class="QLabel" name="x21_label_2">
     <property name="geometry">
      <rect>
@@ -35,6 +52,57 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="argument_lineEdit_23">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>70</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="argument_lineEdit_31">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>120</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="argument_lineEdit_33">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>120</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QLabel" name="x11_label_2">
@@ -86,6 +154,23 @@
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
+   <widget class="QLineEdit" name="answer_lineEdit_1">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>20</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
    <widget class="QLabel" name="label_26">
     <property name="geometry">
      <rect>
@@ -107,6 +192,40 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="answer_lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>120</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="argument_lineEdit_12">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>20</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QLabel" name="label_23">
@@ -362,6 +481,40 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
+   <widget class="QLineEdit" name="argument_lineEdit_13">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>20</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="answer_lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>70</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
    <widget class="QLabel" name="brace_label">
     <property name="geometry">
      <rect>
@@ -375,7 +528,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/braces_2.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/brace.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="argument_label_21">
@@ -478,6 +631,23 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="argument_lineEdit_22">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>70</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QLabel" name="x33_label_2">
@@ -757,6 +927,23 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="argument_lineEdit_32">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>120</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QLabel" name="matrixA_bracket_label_1">
@@ -1185,7 +1372,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="matrixA_label_11">
@@ -1224,7 +1411,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="augmentMatrix_label_23">
@@ -1309,7 +1496,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="matrixA_label_31">
@@ -1483,7 +1670,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="matrix_1_33">
@@ -1965,7 +2152,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="matrix_3_33">
@@ -2257,7 +2444,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="matrix_2_24">
@@ -2516,7 +2703,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="matrix_4_33">
@@ -2998,7 +3185,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="matrix_6_33">
@@ -3290,7 +3477,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="matrix_5_24">
@@ -3753,7 +3940,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/braces_2.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/brace.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_22">
@@ -4153,7 +4340,7 @@
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="matrix7_bracket_label_1">
+   <widget class="QLabel" name="matrix3_bracket_label_5">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -4215,7 +4402,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="matrix7_bracket_label_2">
+   <widget class="QLabel" name="matrix3_bracket_label_6">
     <property name="geometry">
      <rect>
       <x>480</x>
@@ -4228,7 +4415,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="x.qrc">:/newPrefix/skobka2_recovery.png</pixmap>
+     <pixmap resource="x.qrc">:/newPrefix/skobka2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="matrix_7_23">
@@ -4435,7 +4622,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="matrix7_vertLine_label">
+   <widget class="QLabel" name="matrix3_vertLine_label_3">
     <property name="geometry">
      <rect>
       <x>392</x>
@@ -4651,193 +4838,6 @@
     </property>
     <property name="text">
      <string/>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="argument_lineEdit_12">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>20</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="argument_lineEdit_13">
-    <property name="geometry">
-     <rect>
-      <x>480</x>
-      <y>20</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="answer_lineEdit_1">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>20</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="argument_lineEdit_21">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>70</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="argument_lineEdit_22">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>70</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="argument_lineEdit_23">
-    <property name="geometry">
-     <rect>
-      <x>480</x>
-      <y>70</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="answer_lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>70</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="argument_lineEdit_31">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>120</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="argument_lineEdit_32">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>120</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="argument_lineEdit_33">
-    <property name="geometry">
-     <rect>
-      <x>480</x>
-      <y>120</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="answer_lineEdit_3">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>120</y>
-      <width>90</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
     </property>
    </widget>
   </widget>

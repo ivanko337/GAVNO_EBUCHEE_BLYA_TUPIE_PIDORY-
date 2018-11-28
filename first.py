@@ -840,7 +840,7 @@ class Ui_MainWindow(object):
         self.brace_label = QtWidgets.QLabel(self.centralwidget)
         self.brace_label.setGeometry(QtCore.QRect(250, 20, 41, 161))
         self.brace_label.setText("")
-        self.brace_label.setPixmap(QtGui.QPixmap("./brace.png"))
+        self.brace_label.setPixmap(QtGui.QPixmap("./braces_2.png"))
         self.brace_label.setObjectName("brace_label")
         self.x33_label_2 = QtWidgets.QLabel(self.centralwidget)
         self.x33_label_2.setGeometry(QtCore.QRect(670, 120, 31, 51))
