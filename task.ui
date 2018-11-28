@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1369</width>
+    <width>1399</width>
     <height>741</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1399</width>
+    <height>741</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1399</width>
+    <height>741</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -19,12 +31,19 @@
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>1341</width>
+      <width>1401</width>
       <height>101</height>
      </rect>
     </property>
+    <property name="maximumSize">
+     <size>
+      <width>700000</width>
+      <height>16777215</height>
+     </size>
+    </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -47,6 +66,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -61,12 +81,13 @@
      <rect>
       <x>20</x>
       <y>290</y>
-      <width>1341</width>
+      <width>1391</width>
       <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -83,12 +104,13 @@
      <rect>
       <x>20</x>
       <y>390</y>
-      <width>1311</width>
+      <width>1361</width>
       <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -110,6 +132,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -124,12 +147,13 @@
      <rect>
       <x>20</x>
       <y>490</y>
-      <width>531</width>
+      <width>591</width>
       <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -146,12 +170,13 @@ x + 6y + 2z = 300
      <rect>
       <x>20</x>
       <y>590</y>
-      <width>1341</width>
+      <width>1391</width>
       <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -211,6 +236,12 @@ x + 6y + 2z = 300
       <width>391</width>
       <height>141</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft Tai Le</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="text">
      <string/>

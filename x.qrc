@@ -3,6 +3,18 @@
     <file>x1.png</file>
   </qresource>
   <qresource prefix="newPrefix">
+    <file>tr.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>tr.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>tr3.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>triangle_2.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
     <file>braces_2.png</file>
   </qresource>
   <qresource prefix="newPrefix">

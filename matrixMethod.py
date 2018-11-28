@@ -300,21 +300,24 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 			else:
 				self.resultSystemAnswerLabels[k].setText(self.matrix7Labels[i].text())
 				k += 1
+		self.x = float(self.result_system_answer_label_1.text())
+		self.y = float(self.result_system_answer_label_2.text())
+		self.z = float(self.result_system_answer_label_3.text())
 
 	def showXValue(self):
 		self.x_label.show()
 		self.x_value_label.show()
-		self.x_value_label.setText(self.result_system_answer_label_1.text())
+		self.x_value_label.setText(str(self.x))
 
 	def showYValue(self):
 		self.y_label.show()
 		self.y_value_label.show()
-		self.y_value_label.setText(self.result_system_answer_label_2.text())
+		self.y_value_label.setText(str(self.y))
 
 	def showZValue(self):
 		self.z_label.show()
 		self.z_value_label.show()
-		self.z_value_label.setText(self.result_system_answer_label_3.text())
+		self.z_value_label.setText(str(self.z))
 
 def __main__():
 	print('¯\_(ツ)_/¯')
