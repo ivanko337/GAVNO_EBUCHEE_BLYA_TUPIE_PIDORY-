@@ -39,6 +39,4 @@ def toTriangleShape(matr):
 		if matr[i][i] != 0:
 			matr[i] = mulL(matr[i], 1. / matr[i][i])
 	res.append(normalizeZeros(matr))
-	for i in range(len(res)):
-		res[i] = around(res[i], 2)
 	return res

@@ -8,6 +8,7 @@ from dragLabel import DragLabel
 from numpy.linalg import det
 from MatrixAlghoritms import swapRowsL
 from MyMatrix import Matrix
+from cramerMessage import MainDetIsZero
 
 class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 	def __init__(self):
@@ -20,6 +21,7 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.det1 = None
 		self.det2 = None
 		self.det3 = None
+		self.mainDetEqualsZeroDialog = MainDetIsZero(self)
 
 		self.systemArgumentLineEdits = [ [self.argument_lineEdit_11, self.argument_lineEdit_12, self.argument_lineEdit_13],
 							[self.argument_lineEdit_21, self.argument_lineEdit_22, self.argument_lineEdit_23],
@@ -83,11 +85,17 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 		temp = []
 		for i in self.systemArgumentLineEdits:
 			for j in i:
-				temp.append(float(j.text()))
+				try:
+					temp.append(float(j.text()))
+				except ValueError:
+					temp.append(0.0)
 			arguments.append(temp)
 			temp = []
 		for i in self.answerLineEdits:
-			answers.append(float(i.text()))
+			try:
+				answers.append(float(i.text()))
+			except ValueError:
+				answers.append(0.0)
 		self.matrix = arguments
 		self.matrixB = answers
 		for i in self.systemArgumentLineEdits:
@@ -96,12 +104,14 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 		for i in self.answerLineEdits:
 			i.move(5000, 5000)
 		j = 0
-		for i in self.systemArgumentLineEdits:
+		for i in self.matrix:
 			for k in i:
-				self.systemArgumentLabels[j].setText(k.text())
+				temp = round(k, 2)
+				self.systemArgumentLabels[j].setText(str(int(temp) if int(temp) == temp else temp))
 				j += 1
-		for i in range(len(self.answerLineEdits)):
-			self.answerLabels[i].setText(str(self.answerLineEdits[i].text()))
+		for i in range(len(self.matrixB)):
+			temp = round(self.matrixB[i], 2)
+			self.answerLabels[i].setText(str( int(temp) if int(temp) == temp else temp ))
 
 	def refreshAnswerLabels(self):
 		for i in range(len(self.answerLabels)):
@@ -135,6 +145,8 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 			self.mainDetArgLabels[i].setText(self.systemArgumentLabels[i].text())
 
 	def showFirstDetWidgets(self):
+		if self.mainDet == 0:
+			self.mainDetEqualsZeroDialog.show()
 		j = 0
 		for i in range(len(self.systemArgumentLabels)):
 			if self.systemArgumentLabels[i].objectName()[-1] == '1': continue
@@ -145,9 +157,10 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 	def showFirstDet(self):
 		matr = swapRowsL(self.matrix, 0, self.matrixB)
 		res = det(matr)
-		self.det1 = res
+		res = round(res, 2)
+		self.det1 = int(res) if int(res) == res else res
 		for i in range(len(self.det1AnswerLabels)): self.det1AnswerLabels[i].setText(str(self.answerLabels[i].text()))
-		self.det_1_label.setText(str(int(res)))
+		self.det_1_label.setText(str(self.det1))
 		self.refreshAnswerLabels()
 
 	def setAnswerLabelsCoordinates(self, coordinatesList):
@@ -157,8 +170,9 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 	def showSecondDet(self):
 		matr = swapRowsL(self.matrix, 1, self.matrixB)
 		res = det(matr)
-		self.det2 = res
-		self.det_2_label.setText(str(int(res)))
+		res = round(res, 2)
+		self.det2 = int(res) if int(res) == res else res
+		self.det_2_label.setText(str(self.det2))
 		for i in range(len(self.det2AnswerLabels)):
 			self.det2AnswerLabels[i].setText(self.answerLabels[i].text())
 		self.refreshAnswerLabels()
@@ -175,8 +189,9 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 	def showThirdDet(self):
 		matr = swapRowsL(self.matrix, 2, self.matrixB)
 		res = det(matr)
-		self.det3 = res
-		self.det_3_label.setText(str(int(res)))
+		res = round(res, 2)
+		self.det3 = int(res) if int(res) == res else res
+		self.det_3_label.setText(str(self.det3))
 		for i in range(len(self.det3AnswerLabels)):
 			self.det3AnswerLabels[i].setText(self.answerLabels[i].text())
 		self.refreshAnswerLabels()
@@ -192,9 +207,11 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 
 	def showMainDet(self):
 		res = det(self.matrix)
-		self.mainDet = res
+		res = round(res, 2)
+		self.mainDet = int(res) if int(res) == res else res
 		self.refreshSystemLabels()
-		self.main_det_label.setText(str(int(res)))
+		res = round(res, 2)
+		self.main_det_label.setText(str(self.mainDet))
 		self.setAnswerLabelsCoordinates(self.det1AnswerLabelsCoordinates)
 
 	def showX1Widgets(self):
@@ -204,14 +221,15 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 	def showX1Widgets2(self):
 		for i in self.x1Widgets[6:9]:
 			i.show()
-		self.x1_det1_label.setText(str(int(self.det1)))
-		self.x1_main_det_label.setText(str(int(self.mainDet)))
+		self.x1_det1_label.setText(str(int(self.det1) if int(self.det1) == round(self.det1, 2) else round(self.det1, 2)))
+		self.x1_main_det_label.setText(str(int(self.mainDet) if int(self.mainDet) == round(self.mainDet, 2) else round(self.mainDet, 2)))
 
 	def showX1(self):
 		self.x1Widgets[-1].show()
 		self.x1Widgets[-2].show()
 		res = self.det1 / self.mainDet
-		self.x1_result_label.setText(str(int(round(res))))
+		res = round(res, 2)
+		self.x1_result_label.setText(str(int(res) if int(res) == res else res))
 
 	def showX2Widgets(self):
 		for i in self.x2Widgets[:6]:
@@ -220,14 +238,15 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 	def showX2Widgets2(self):
 		for i in self.x2Widgets[6:8]:
 			i.show()
-		self.x2_det2_label.setText(str(int(self.det2)))
-		self.x2_main_det_label.setText(str(int(self.mainDet)))
+		self.x2_det2_label.setText(str(int(self.det2) if int(self.det2) == round(self.det2, 2) else round(self.det2, 2)))
+		self.x2_main_det_label.setText(str(int(self.mainDet) if int(self.mainDet) == round(self.mainDet, 2) else round(self.mainDet, 2)))
 
 	def showX2(self):
 		self.x2Widgets[-1].show()
 		self.x2Widgets[-2].show()
 		res = self.det2 / self.mainDet
-		self.x2_result_label.setText(str(int(round(res))))
+		res = round(res, 2)
+		self.x2_result_label.setText(str(int(res) if int(res) == res else res))
 
 	def showX3Widgets(self):
 		for i in self.x3Widgets[:6]:
@@ -236,14 +255,15 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 	def showX3Widgets2(self):
 		for i in self.x3Widgets[6:8]:
 			i.show()
-		self.x3_det3_label.setText(str(int(self.det3)))
-		self.x3_main_det_label.setText(str(int(self.mainDet)))
+		self.x3_det3_label.setText( str(int(self.det3) if int(self.det3) == round(self.det3, 2) else round(self.det3, 2)) )
+		self.x3_main_det_label.setText(str(int(self.mainDet) if int(self.mainDet) == round(self.mainDet, 2) else round(self.mainDet, 2)))
 
 	def showX3(self):
 		self.x3Widgets[-1].show()
 		self.x3Widgets[-2].show()
 		res = self.det3 / self.mainDet
-		self.x3_result_label.setText(str(int(round(res))))
+		res = round(res, 2)
+		self.x3_result_label.setText(str(int(res) if int(res) == res else res))
 
 def __main__():
 	app = QtWidgets.QApplication(sys.argv)

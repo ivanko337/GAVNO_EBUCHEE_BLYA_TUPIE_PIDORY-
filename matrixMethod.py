@@ -24,9 +24,9 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 							[self.argument_lineEdit_31, self.argument_lineEdit_32, self.argument_lineEdit_33]]
 		self.answerLineEdits = [ self.answer_lineEdit_1, self.answer_lineEdit_2, self.answer_lineEdit_3 ]
 
-		self.systemArgumentLables = [self.argument_label_11, self.argument_label_12, self.argument_label_13, self.argument_label_21, self.argument_label_22, self.argument_label_23,
+		self.systemArgumentLabels = [self.argument_label_11, self.argument_label_12, self.argument_label_13, self.argument_label_21, self.argument_label_22, self.argument_label_23,
 							self.argument_label_31, self.argument_label_32, self.argument_label_33]
-		self.systemArgumentLabelsCoordinates = [ (i.pos().x(), i.pos().y()) for i in self.systemArgumentLables ]
+		self.systemArgumentLabelsCoordinates = [ (i.pos().x(), i.pos().y()) for i in self.systemArgumentLabels ]
 
 		self.answerLabels = [self.answer_label_1, self.answer_label_2, self.answer_label_3]
 		self.answerLabelsCoordinates = [ (i.pos().x(), i.pos().y()) for i in self.answerLabels ]
@@ -109,7 +109,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 			widgets[i].move(*coordinates[i])
 
 	def refreshSysLabels(self):
-		self.refreshWidgets(self.systemArgumentLables, self.systemArgumentLabelsCoordinates)
+		self.refreshWidgets(self.systemArgumentLabels, self.systemArgumentLabelsCoordinates)
 
 	def refreshAnswerLabel(self):
 		self.refreshWidgets(self.answerLabels, self.answerLabelsCoordinates)
@@ -123,6 +123,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 	def createAugmentMatrix(self):
 		self.matrixAB = addColumn(self.matrix, self.matrixB)
 		self.matrixList = toUnitShape(self.matrixAB)
+		del self.matrixList[2]
 
 	def nextAction(self):
 		if self.count == len(self.actions):
@@ -140,11 +141,17 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		temp = []
 		for i in self.systemArgumentLineEdits:
 			for j in i:
-				temp.append(float(j.text()))
+				try:
+					temp.append(float(j.text()))
+				except ValueError:
+					temp.append(0.0)
 			arguments.append(temp)
 			temp = []
 		for i in self.answerLineEdits:
-			answers.append(float(i.text()))
+			try:
+				answers.append(float(i.text()))
+			except ValueError:
+				answers.append(0.0)
 		self.matrix = arguments
 		self.matrixB = answers
 		for i in self.systemArgumentLineEdits:
@@ -153,12 +160,14 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		for i in self.answerLineEdits:
 			i.move(5000, 5000)
 		j = 0
-		for i in self.systemArgumentLineEdits:
+		for i in self.matrix:
 			for k in i:
-				self.systemArgumentLables[j].setText(k.text())
+				temp = round(k, 2)
+				self.systemArgumentLabels[j].setText(str(int(temp) if int(temp) == temp else temp))
 				j += 1
-		for i in range(len(self.answerLineEdits)):
-			self.answerLabels[i].setText(str(self.answerLineEdits[i].text()))
+		for i in range(len(self.matrixB)):
+			temp = round(self.matrixB[i], 2)
+			self.answerLabels[i].setText(str( int(temp) if int(temp) == temp else temp ))
 
 	def hideAll(self):
 		for i in self.hide:
@@ -249,7 +258,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 
 	def showAugmentMatrixWidgets(self):
 		for i in range(len(self.matrixALabels)):
-			self.matrixALabels[i].setText(self.systemArgumentLables[i].text())
+			self.matrixALabels[i].setText(self.systemArgumentLabels[i].text())
 		for i in range(len(self.answerLabels)):
 			self.matrixBLabels[i].setText(self.answerLabels[i].text())
 		self.refreshSysLabels()
@@ -266,7 +275,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 
 	def showABMatrixWidgets(self):
 		self.createMatrix()
-		self.setCoordinates(self.systemArgumentLables, self.matrixALabelsCoordinates)
+		self.setCoordinates(self.systemArgumentLabels, self.matrixALabelsCoordinates)
 		self.setCoordinates(self.answerLabels, self.matrixBLabelsCoordinates)
 		for i in self.matrixABWidgets:
 			i.show()
@@ -301,8 +310,11 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 				self.resultSystemAnswerLabels[k].setText(self.matrix7Labels[i].text())
 				k += 1
 		self.x = float(self.result_system_answer_label_1.text())
+		self.x = int(self.x) if int(self.x) == self.x else self.x
 		self.y = float(self.result_system_answer_label_2.text())
+		self.y = int(self.y) if int(self.y) == self.y else self.y
 		self.z = float(self.result_system_answer_label_3.text())
+		self.z = int(self.z) if int(self.z) == self.z else self.z
 
 	def showXValue(self):
 		self.x_label.show()

@@ -24,9 +24,9 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 							[self.argument_lineEdit_31, self.argument_lineEdit_32, self.argument_lineEdit_33]]
 		self.answerLineEdits = [ self.answer_lineEdit_1, self.answer_lineEdit_2, self.answer_lineEdit_3 ]
 
-		self.systemArgumentLables = [self.argument_label_11, self.argument_label_12, self.argument_label_13, self.argument_label_21, self.argument_label_22, self.argument_label_23,
+		self.systemArgumentLabels = [self.argument_label_11, self.argument_label_12, self.argument_label_13, self.argument_label_21, self.argument_label_22, self.argument_label_23,
 							self.argument_label_31, self.argument_label_32, self.argument_label_33]
-		self.systemArgumentLabelsCoordinates = [ (i.pos().x(), i.pos().y()) for i in self.systemArgumentLables ]
+		self.systemArgumentLabelsCoordinates = [ (i.pos().x(), i.pos().y()) for i in self.systemArgumentLabels ]
 
 		self.answerLabels = [self.answer_label_1, self.answer_label_2, self.answer_label_3]
 		self.answerLabelsCoordinates = [ (i.pos().x(), i.pos().y()) for i in self.answerLabels ]
@@ -90,7 +90,7 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 			widgets[i].move(*coordinates[i])
 
 	def refreshSysLabels(self):
-		self.refreshWidgets(self.systemArgumentLables, self.systemArgumentLabelsCoordinates)
+		self.refreshWidgets(self.systemArgumentLabels, self.systemArgumentLabelsCoordinates)
 
 	def refreshAnswerLabel(self):
 		self.refreshWidgets(self.answerLabels, self.answerLabelsCoordinates)
@@ -104,6 +104,8 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 	def createAugmentMatrix(self):
 		self.matrixAB = addColumn(self.matrix, self.matrixB)
 		self.matrixList = toTriangleShape(self.matrixAB)
+		for i in self.matrixList:
+			print(i)
 
 	def nextAction(self):
 		if self.count == len(self.actions):
@@ -121,11 +123,17 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 		temp = []
 		for i in self.systemArgumentLineEdits:
 			for j in i:
-				temp.append(float(j.text()))
+				try:
+					temp.append(float(j.text()))
+				except ValueError:
+					temp.append(0.0)
 			arguments.append(temp)
 			temp = []
 		for i in self.answerLineEdits:
-			answers.append(float(i.text()))
+			try:
+				answers.append(float(i.text()))
+			except ValueError:
+				answers.append(0.0)
 		self.matrix = arguments
 		self.matrixB = answers
 		for i in self.systemArgumentLineEdits:
@@ -134,12 +142,14 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 		for i in self.answerLineEdits:
 			i.move(5000, 5000)
 		j = 0
-		for i in self.systemArgumentLineEdits:
+		for i in self.matrix:
 			for k in i:
-				self.systemArgumentLables[j].setText(k.text())
+				temp = round(k, 2)
+				self.systemArgumentLabels[j].setText(str( int(temp) if int(temp) == temp else temp ))
 				j += 1
-		for i in range(len(self.answerLineEdits)):
-			self.answerLabels[i].setText(str(self.answerLineEdits[i].text()))
+		for i in range(len(self.matrixB)):
+			temp = round(self.matrixB[i], 2)
+			self.answerLabels[i].setText(str( int(temp) if int(temp) == temp else temp ))
 
 	def hideAll(self):
 		for i in self.hide:
@@ -165,7 +175,7 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 		j = 0
 		for i in self.matrixList[1]:
 			for k in i:
-				self.matrix2Labels[j].setText(str(int(k) if int(k) == k else k))
+				self.matrix2Labels[j].setText(str(int(k) if int(k) == round(k, 2) else round(k, 2)))
 				j += 1
 
 	def showThirdMatrixWidgets(self):
@@ -175,19 +185,19 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 		j = 0
 		for i in self.matrixList[2]:
 			for k in i:
-				self.matrix3Labels[j].setText(str(int(k) if int(k) == k else k))
+				self.matrix3Labels[j].setText(str(int(k) if int(k) == round(k, 2) else round(k, 2)))
 				j += 1
 
 	def fillFirstMatrixLabels(self):
 		j = 0
 		for i in self.matrixList[0]:
 			for k in i:
-				self.matrix1Labels[j].setText(str(int(k) if int(k) == k else k))
+				self.matrix1Labels[j].setText(str(int(k) if int(k) == round(k, 2) else round(k, 2)))
 				j += 1
 
 	def showAugmentMatrixWidgets(self):
 		for i in range(len(self.matrixALabels)):
-			self.matrixALabels[i].setText(self.systemArgumentLables[i].text())
+			self.matrixALabels[i].setText(self.systemArgumentLabels[i].text())
 		for i in range(len(self.answerLabels)):
 			self.matrixBLabels[i].setText(self.answerLabels[i].text())
 		self.refreshSysLabels()
@@ -204,7 +214,7 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 
 	def showABMatrixWidgets(self):
 		self.createMatrix()
-		self.setCoordinates(self.systemArgumentLables, self.matrixALabelsCoordinates)
+		self.setCoordinates(self.systemArgumentLabels, self.matrixALabelsCoordinates)
 		self.setCoordinates(self.answerLabels, self.matrixBLabelsCoordinates)
 		for i in self.matrixABWidgets:
 			i.show()
@@ -242,36 +252,42 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 	def showZValue(self):
 		self.z_label.show()
 		self.z_value_label.show()
-		self.z = float(self.result_system_answer_label_3.text())
-		self.z = round(self.z, 2)
-		self.z = int(self.z) if int(self.z) == self.z else self.z
-		self.z_value_label.setText(str(self.z))
+		self.z = self.matrixList[-1][-1][-1]
+		self.z_value_label.setText(str( int(self.z) if int(self.z) == round(self.z, 2) else round(self.z, 2)))
 
 	def showYValue(self):
-		y_answ = round(float(self.result_system_answer_label_2.text()), 2)
-		y_answ = int(y_answ) if int(y_answ) == y_answ else y_answ
-		z_coef = round(float(self.result_system_label_23.text()), 2)
-		z_coef = int(z_coef) if int(z_coef) == z_coef else z_coef
+		y_answ = self.matrixList[-1][-2][-1]
+		z_coef = self.matrixList[-1][-2][-2]
 		self.y_label.show()
 		self.y_value_label.show()
 		self.y = y_answ - z_coef * self.z
-		self.y = round(self.y, 2)
-		self.y = int(self.y) if int(self.y) == self.y else self.y
-		self.y_value_label.setText('{} - {}z = {} - {} * {} = {}'.format(y_answ, z_coef, y_answ, z_coef, self.z, self.y))
+		y = round(self.y, 2); y = int(y) if int(y) == y else y
+		z = round(self.z, 2); z = int(z) if int(z) == z else z
+		y_answ = round(y_answ, 2); y_answ = int(y_answ) if int(y_answ) == y_answ else y_answ
+		z_coef = round(z_coef, 2); z_coef = int(z_coef) if int(z_coef) == z_coef else z_coef
+		answ = [ y_answ, z_coef if z_coef >= 0 else '({})'.format(z_coef), y_answ if y_answ >= 0 else '({})'.format(y_answ), z_coef if z_coef >= 0 else '({})'.format(z_coef), z if z >= 0 else '({})'.format(z), y ]
+		self.y_value_label.setText('{} - {}z = {} - {} * {} = {}'.format(*answ))
 
 	def showXValue(self):
 		self.x_label.show()
 		self.x_value_label.show()
-		z_coef = round(float(self.result_system_label_13.text()), 2)
-		z_coef = int(z_coef) if int(z_coef) == z_coef else z_coef
-		y_coef = round(float(self.result_system_label_12.text()), 2)
-		y_coef = int(y_coef) if int(y_coef) == y_coef else y_coef
-		x_answ = round(float(self.result_system_answer_label_1.text()), 2)
-		x_answ = int(x_answ) if int(x_answ) == x_answ else x_answ
+		z_coef = self.matrixList[-1][0][2]
+		y_coef = self.matrixList[-1][0][1]
+		x_answ = self.matrixList[-1][0][-1]
+		for i in self.matrixList[-1]:
+			print(i)
 		self.x = x_answ - z_coef * self.z - y_coef * self.y
-		self.x = round(self.x, 2)
-		self.x = int(self.x) if int(self.x) == self.x else self.x
-		self.x_value_label.setText('{} - {}z - {}y = {} - {} * {} - {} * {} = {}'.format(x_answ, z_coef, y_coef, x_answ, z_coef, self.z, y_coef, self.y, self.x))
+		x = round(self.x, 2); x = int(x) if int(x) == x else x
+		print(x)
+		y = round(self.y, 2); y = int(y) if int(y) == y else y
+		z = round(self.z, 2); z = int(z) if int(z) == z else z
+		z_coef = round(z_coef, 2) ; z_coef = int(z_coef) if int(z_coef) == z_coef else z_coef
+		y_coef = round(y_coef, 2); y_coef = int(y_coef) if int(y_coef) == y_coef else y_coef
+		x_answ = round(x_answ, 2); x_answ = int(x_answ) if int(x_answ) == x_answ else x_answ
+		answ = [ x_answ if x_answ >= 0 else '({})'.format(x_answ), z_coef if z_coef >= 0 else '({})'.format(z_coef), y_coef if y_coef >= 0 else '({})'.format(y_coef) , x_answ if x_answ >= 0 else '({})'.format(x_answ), 
+					z_coef if z_coef >= 0 else '({})'.format(z_coef), z if z >= 0 else '({})'.format(z), y_coef if y_coef >= 0 else '({})'.format(y_coef), y if y >= 0 else '({})'.format(y), x ]
+		self.x_value_label.setText('{} - {}z - {}y = {} - {} * {} - {} * {} = {}'.format(*answ))
+		# x_answ, z_coef, y_coef, x_answ, z_coef, self.z, y_coef, self.y, self.x
 
 def __main__():
 	app = QtWidgets.QApplication([])

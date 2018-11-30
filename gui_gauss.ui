@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1285</width>
-    <height>711</height>
+    <width>1332</width>
+    <height>719</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1332</width>
+    <height>719</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1332</width>
+    <height>719</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -57,6 +69,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -80,6 +93,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -103,6 +117,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -126,6 +141,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -149,6 +165,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -172,6 +189,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -195,6 +213,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -218,6 +237,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -241,6 +261,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -280,6 +301,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -303,6 +325,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -326,6 +349,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -374,13 +398,14 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>200</y>
+      <y>190</y>
       <width>71</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -394,13 +419,14 @@
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>200</y>
+      <y>190</y>
       <width>71</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -413,7 +439,7 @@
    <widget class="QLabel" name="matrix1_bracket_label_1">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>300</y>
       <width>21</width>
       <height>111</height>
@@ -431,12 +457,13 @@
      <rect>
       <x>30</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -454,12 +481,13 @@
      <rect>
       <x>190</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -477,12 +505,13 @@
      <rect>
       <x>30</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -500,12 +529,13 @@
      <rect>
       <x>110</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -523,12 +553,13 @@
      <rect>
       <x>110</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -546,12 +577,13 @@
      <rect>
       <x>190</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -569,12 +601,13 @@
      <rect>
       <x>110</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -592,12 +625,13 @@
      <rect>
       <x>190</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -615,12 +649,13 @@
      <rect>
       <x>30</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -661,12 +696,13 @@
      <rect>
       <x>300</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -684,12 +720,13 @@
      <rect>
       <x>300</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -707,12 +744,13 @@
      <rect>
       <x>300</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -728,7 +766,7 @@
    <widget class="QLabel" name="matrix1_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>390</x>
       <y>300</y>
       <width>21</width>
       <height>111</height>
@@ -744,7 +782,7 @@
    <widget class="QLabel" name="tilde_label_1">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>420</x>
       <y>340</y>
       <width>41</width>
       <height>31</height>
@@ -752,7 +790,8 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>50</pointsize>
+      <family>Microsoft Tai Le</family>
+      <pointsize>30</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -764,14 +803,15 @@
    <widget class="QLabel" name="matrix_2_11">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>480</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -787,14 +827,15 @@
    <widget class="QLabel" name="matrix_2_32">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>560</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -810,14 +851,15 @@
    <widget class="QLabel" name="matrix_2_34">
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>750</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -833,14 +875,15 @@
    <widget class="QLabel" name="matrix_2_33">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>640</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -856,14 +899,15 @@
    <widget class="QLabel" name="matrix_2_21">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>480</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -879,14 +923,15 @@
    <widget class="QLabel" name="matrix_2_23">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>640</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -902,14 +947,15 @@
    <widget class="QLabel" name="matrix_2_12">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>560</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -925,14 +971,15 @@
    <widget class="QLabel" name="matrix_2_13">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>640</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -948,14 +995,15 @@
    <widget class="QLabel" name="matrix_2_31">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>480</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -987,14 +1035,15 @@
    <widget class="QLabel" name="matrix_2_24">
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>750</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1010,14 +1059,15 @@
    <widget class="QLabel" name="matrix_2_14">
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>750</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1033,7 +1083,7 @@
    <widget class="QLabel" name="matrix2_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>820</x>
+      <x>840</x>
       <y>300</y>
       <width>21</width>
       <height>111</height>
@@ -1049,14 +1099,15 @@
    <widget class="QLabel" name="matrix_2_22">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>560</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1072,14 +1123,15 @@
    <widget class="QLabel" name="matrix_3_21">
     <property name="geometry">
      <rect>
-      <x>910</x>
+      <x>930</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1095,14 +1147,15 @@
    <widget class="QLabel" name="matrix_3_31">
     <property name="geometry">
      <rect>
-      <x>910</x>
+      <x>930</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1118,7 +1171,7 @@
    <widget class="QLabel" name="matrix3_bracket_label_1">
     <property name="geometry">
      <rect>
-      <x>900</x>
+      <x>910</x>
       <y>300</y>
       <width>21</width>
       <height>111</height>
@@ -1134,14 +1187,15 @@
    <widget class="QLabel" name="matrix_3_34">
     <property name="geometry">
      <rect>
-      <x>1180</x>
+      <x>1200</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1157,14 +1211,15 @@
    <widget class="QLabel" name="matrix_3_33">
     <property name="geometry">
      <rect>
-      <x>1070</x>
+      <x>1090</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1180,14 +1235,15 @@
    <widget class="QLabel" name="matrix_3_11">
     <property name="geometry">
      <rect>
-      <x>910</x>
+      <x>930</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1203,14 +1259,15 @@
    <widget class="QLabel" name="matrix_3_32">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>1010</x>
       <y>370</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1226,14 +1283,15 @@
    <widget class="QLabel" name="matrix_3_23">
     <property name="geometry">
      <rect>
-      <x>1070</x>
+      <x>1090</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1249,7 +1307,7 @@
    <widget class="QLabel" name="matrix3_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>1260</x>
+      <x>1290</x>
       <y>300</y>
       <width>21</width>
       <height>111</height>
@@ -1265,14 +1323,15 @@
    <widget class="QLabel" name="matrix_3_13">
     <property name="geometry">
      <rect>
-      <x>1070</x>
+      <x>1090</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1288,14 +1347,15 @@
    <widget class="QLabel" name="matrix_3_14">
     <property name="geometry">
      <rect>
-      <x>1180</x>
+      <x>1200</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1311,14 +1371,15 @@
    <widget class="QLabel" name="matrix_3_22">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>1010</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1334,14 +1395,15 @@
    <widget class="QLabel" name="matrix_3_12">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>1010</x>
       <y>310</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1357,14 +1419,15 @@
    <widget class="QLabel" name="matrix_3_24">
     <property name="geometry">
      <rect>
-      <x>1180</x>
+      <x>1200</x>
       <y>340</y>
-      <width>95</width>
+      <width>85</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1380,7 +1443,7 @@
    <widget class="QLabel" name="matrix2_vertLine_label">
     <property name="geometry">
      <rect>
-      <x>730</x>
+      <x>740</x>
       <y>310</y>
       <width>21</width>
       <height>101</height>
@@ -1403,7 +1466,7 @@
    <widget class="QLabel" name="matrix3_vertLine_label">
     <property name="geometry">
      <rect>
-      <x>1170</x>
+      <x>1190</x>
       <y>310</y>
       <width>21</width>
       <height>101</height>
@@ -1434,6 +1497,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1473,6 +1537,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1496,6 +1561,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1519,6 +1585,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1542,6 +1609,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1581,6 +1649,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1604,6 +1673,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1627,6 +1697,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1650,6 +1721,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1673,6 +1745,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1696,6 +1769,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1719,6 +1793,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1765,6 +1840,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1788,6 +1864,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1811,6 +1888,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1834,6 +1912,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1857,6 +1936,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1880,6 +1960,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1903,6 +1984,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1929,6 +2011,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1952,6 +2035,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1975,6 +2059,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -1998,6 +2083,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2021,6 +2107,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2044,6 +2131,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2067,6 +2155,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2090,6 +2179,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2116,6 +2206,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2139,6 +2230,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2156,6 +2248,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2179,6 +2272,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2202,6 +2296,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2225,6 +2320,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2248,6 +2344,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2271,6 +2368,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2297,6 +2395,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2320,6 +2419,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2343,6 +2443,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2366,6 +2467,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2389,6 +2491,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2412,6 +2515,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2435,6 +2539,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2458,6 +2563,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2481,6 +2587,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2498,6 +2605,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2515,6 +2623,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2532,6 +2641,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2549,6 +2659,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2566,6 +2677,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2583,6 +2695,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2600,6 +2713,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2617,6 +2731,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2634,6 +2749,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2651,6 +2767,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2673,7 +2790,7 @@
    <widget class="QLabel" name="brace_label_2">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>30</x>
       <y>430</y>
       <width>21</width>
       <height>111</height>
@@ -2697,6 +2814,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2720,6 +2838,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2743,6 +2862,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2766,6 +2886,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2782,13 +2903,14 @@
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>500</y>
+      <y>490</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2805,13 +2927,14 @@
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>500</y>
+      <y>490</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2831,13 +2954,14 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>500</y>
+      <y>490</y>
       <width>91</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2861,6 +2985,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2884,6 +3009,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2900,13 +3026,14 @@
     <property name="geometry">
      <rect>
       <x>500</x>
-      <y>500</y>
+      <y>490</y>
       <width>341</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2930,6 +3057,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2953,6 +3081,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2969,13 +3098,14 @@
     <property name="geometry">
      <rect>
       <x>350</x>
-      <y>500</y>
+      <y>490</y>
       <width>91</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -2992,13 +3122,14 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>500</y>
+      <y>490</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3022,6 +3153,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3045,6 +3177,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3068,6 +3201,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3084,13 +3218,14 @@
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>500</y>
+      <y>490</y>
       <width>91</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3109,7 +3244,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>60</x>
       <y>430</y>
       <width>91</width>
       <height>31</height>
@@ -3117,6 +3252,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3140,6 +3276,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3163,6 +3300,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3186,6 +3324,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3209,6 +3348,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3225,13 +3365,14 @@
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>500</y>
+      <y>490</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3255,6 +3396,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3281,6 +3423,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3304,6 +3447,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3327,6 +3471,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3347,6 +3492,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3367,6 +3513,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3387,6 +3534,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3407,6 +3555,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3427,6 +3576,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Microsoft Tai Le</family>
       <pointsize>25</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -3439,7 +3589,7 @@
    <widget class="QLabel" name="tilde_label_2">
     <property name="geometry">
      <rect>
-      <x>850</x>
+      <x>870</x>
       <y>340</y>
       <width>41</width>
       <height>31</height>
@@ -3447,7 +3597,8 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>50</pointsize>
+      <family>Microsoft Tai Le</family>
+      <pointsize>30</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>

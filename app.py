@@ -11,21 +11,27 @@ class App(QtWidgets.QMainWindow, Ui_MainWindow):
 	def __init__(self):
 		super().__init__()
 		self.setupUi(self)
+		self.cramerM = Cramer()
+		self.gaussM  = Gauss()
+		self.matrix  = MatrixMethod()
 		self.pushButton_Cramer.clicked.connect(self.cramer)
 		self.pushButton_Gauss.clicked.connect(self.gauss)
 		self.pushButton_Matrix.clicked.connect(self.matrixM)
 
 	def cramer(self):
-		window = Cramer()
-		window.show()
+		self.cramerM.close()
+		self.cramerM = Cramer()
+		self.cramerM.show()
 
 	def gauss(self):
-		window = Gauss()
-		window.show()
+		self.gaussM.close()
+		self.gaussM = Gauss()
+		self.gaussM.show()
 
 	def matrixM(self):
-		window = MatrixMethod()
-		window.show()
+		self.matrix.close()
+		self.matrix = MatrixMethod()
+		self.matrix.show()
 
 def __main__():
 	app = QtWidgets.QApplication([])
