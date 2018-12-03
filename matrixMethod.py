@@ -324,10 +324,3 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 
 def __main__():
 	print('¯\_(ツ)_/¯')
-	app = QtWidgets.QApplication([])
-	window = MatrixMethod()
-	window.show()
-	app.exec_()
-
-if __name__ == '__main__':
-	__main__()

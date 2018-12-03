@@ -288,12 +288,3 @@ class Gauss(QtWidgets.QMainWindow, Ui_MainWindow):
 					z_coef if z_coef >= 0 else '({})'.format(z_coef), z if z >= 0 else '({})'.format(z), y_coef if y_coef >= 0 else '({})'.format(y_coef), y if y >= 0 else '({})'.format(y), x ]
 		self.x_value_label.setText('{} - {}z - {}y = {} - {} * {} - {} * {} = {}'.format(*answ))
 		# x_answ, z_coef, y_coef, x_answ, z_coef, self.z, y_coef, self.y, self.x
-
-def __main__():
-	app = QtWidgets.QApplication([])
-	window = Gauss()
-	window.show()
-	app.exec_()
-
-if __name__ == '__main__':
-	__main__()

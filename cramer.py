@@ -264,12 +264,3 @@ class Cramer(QtWidgets.QMainWindow, Ui_MainWindow):
 		res = self.det3 / self.mainDet
 		res = round(res, 2)
 		self.x3_result_label.setText(str(int(res) if int(res) == res else res))
-
-def __main__():
-	app = QtWidgets.QApplication(sys.argv)
-	window = Cramer()
-	window.show()
-	app.exec_()
-
-if __name__ == '__main__':
-	__main__()
