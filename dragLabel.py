@@ -4,8 +4,8 @@ from numpy import power, sqrt
 class DragLabel(QtWidgets.QLabel):
     def __init__(self, parent):
         super(DragLabel, self).__init__(parent)
-        self.x = 1000
-        self.y = 1000
+        self.x = 5000
+        self.y = 5000
 
     def setCoordinates(self, qPoint):
         self.x = qPoint.x()
@@ -27,7 +27,7 @@ class DragLabel(QtWidgets.QLabel):
         if event.buttons() == QtCore.Qt.LeftButton:
             # adjust offset from clicked point to origin of widget
             len = self.getLen(self.pos().x(), self.pos().y())
-            if len < 40:
+            if len < 60:
                 currPos = self.mapToGlobal(QtCore.QPoint(self.x, self.y))
             else:
                 currPos = self.mapToGlobal(self.pos())
