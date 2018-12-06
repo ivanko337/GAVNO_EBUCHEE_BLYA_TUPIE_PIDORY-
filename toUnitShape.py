@@ -25,10 +25,13 @@ def toUnitShape(matrix, col=Matrix([]), col_is_matr=False):
             matrix[j] = addRows(matrix, i, j, coefficient)
         res.append(deepcopy(matrix))
     for i in range(len(matrix)):
-        matrix[i] = mulL(matrix[i], 1 / matrix[i][i])
+        if matrix[i][i] != 0:
+            matrix[i] = mulL(matrix[i], 1. / matrix[i][i])
     res.append(deepcopy(matrix))
     for i in range(len(matrix)):
         for j in range(i):
+            if matrix[i][i] == 0:
+                continue
             coefficient = matrix[j][i] / matrix[i][i]
             coefficient = -coefficient
             matrix[j] = addRows(matrix, i, j, coefficient)

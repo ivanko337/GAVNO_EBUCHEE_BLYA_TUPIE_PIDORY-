@@ -125,6 +125,7 @@ class MatrixMethod(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.matrixAB = addColumn(self.matrix, self.matrixB)
 		self.matrixList = toUnitShape(self.matrixAB)
 		del self.matrixList[2]
+		del self.matrixList[2]
 
 	def nextAction(self):
 		if self.count == len(self.actions):

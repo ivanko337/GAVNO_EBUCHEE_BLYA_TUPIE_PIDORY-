@@ -696,7 +696,7 @@
      <rect>
       <x>300</x>
       <y>310</y>
-      <width>85</width>
+      <width>100</width>
       <height>31</height>
      </rect>
     </property>
@@ -720,7 +720,7 @@
      <rect>
       <x>300</x>
       <y>340</y>
-      <width>85</width>
+      <width>100</width>
       <height>31</height>
      </rect>
     </property>
@@ -744,7 +744,7 @@
      <rect>
       <x>300</x>
       <y>370</y>
-      <width>85</width>
+      <width>100</width>
       <height>31</height>
      </rect>
     </property>
@@ -766,7 +766,7 @@
    <widget class="QLabel" name="matrix1_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>400</x>
       <y>300</y>
       <width>21</width>
       <height>111</height>
@@ -782,9 +782,9 @@
    <widget class="QLabel" name="tilde_label_1">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>430</x>
       <y>340</y>
-      <width>41</width>
+      <width>31</width>
       <height>31</height>
      </rect>
     </property>
@@ -853,7 +853,7 @@
      <rect>
       <x>750</x>
       <y>370</y>
-      <width>85</width>
+      <width>100</width>
       <height>31</height>
      </rect>
     </property>
@@ -1037,7 +1037,7 @@
      <rect>
       <x>750</x>
       <y>340</y>
-      <width>85</width>
+      <width>100</width>
       <height>31</height>
      </rect>
     </property>
@@ -1061,7 +1061,7 @@
      <rect>
       <x>750</x>
       <y>310</y>
-      <width>85</width>
+      <width>100</width>
       <height>31</height>
      </rect>
     </property>
@@ -1083,7 +1083,7 @@
    <widget class="QLabel" name="matrix2_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>840</x>
+      <x>850</x>
       <y>300</y>
       <width>21</width>
       <height>111</height>
@@ -1189,7 +1189,7 @@
      <rect>
       <x>1200</x>
       <y>370</y>
-      <width>85</width>
+      <width>100</width>
       <height>31</height>
      </rect>
     </property>
@@ -1307,7 +1307,7 @@
    <widget class="QLabel" name="matrix3_bracket_label_2">
     <property name="geometry">
      <rect>
-      <x>1290</x>
+      <x>1300</x>
       <y>300</y>
       <width>21</width>
       <height>111</height>
@@ -1349,7 +1349,7 @@
      <rect>
       <x>1200</x>
       <y>310</y>
-      <width>85</width>
+      <width>100</width>
       <height>31</height>
      </rect>
     </property>
@@ -1421,7 +1421,7 @@
      <rect>
       <x>1200</x>
       <y>340</y>
-      <width>85</width>
+      <width>100</width>
       <height>31</height>
      </rect>
     </property>
@@ -3589,9 +3589,9 @@
    <widget class="QLabel" name="tilde_label_2">
     <property name="geometry">
      <rect>
-      <x>870</x>
+      <x>875</x>
       <y>340</y>
-      <width>41</width>
+      <width>31</width>
       <height>31</height>
      </rect>
     </property>
@@ -3607,6 +3607,164 @@
      <string>~</string>
     </property>
    </widget>
+   <zorder>matrix_1_24</zorder>
+   <zorder>matrix_3_14</zorder>
+   <zorder>matrix_1_34</zorder>
+   <zorder>matrix_2_34</zorder>
+   <zorder>matrix_2_14</zorder>
+   <zorder>matrix_3_24</zorder>
+   <zorder>matrix_1_14</zorder>
+   <zorder>matrix_2_24</zorder>
+   <zorder>matrix_3_34</zorder>
+   <zorder>brace_label</zorder>
+   <zorder>matrixA_bracket_label_1</zorder>
+   <zorder>matrixA_label_11</zorder>
+   <zorder>matrixA_label_21</zorder>
+   <zorder>matrixA_label_31</zorder>
+   <zorder>matrixA_label_12</zorder>
+   <zorder>matrixA_label_32</zorder>
+   <zorder>matrixA_label_22</zorder>
+   <zorder>matrixA_label_13</zorder>
+   <zorder>matrixA_label_33</zorder>
+   <zorder>matrixA_label_23</zorder>
+   <zorder>matrixA_bracket_label_2</zorder>
+   <zorder>matrixB_1</zorder>
+   <zorder>matrixB_3</zorder>
+   <zorder>matrixB_2</zorder>
+   <zorder>matrixB_bracket_label_1</zorder>
+   <zorder>matrixB_bracket_label_2</zorder>
+   <zorder>matrixA_label</zorder>
+   <zorder>matrixB_label</zorder>
+   <zorder>matrix1_bracket_label_1</zorder>
+   <zorder>matrix_1_31</zorder>
+   <zorder>matrix_1_23</zorder>
+   <zorder>matrix_1_11</zorder>
+   <zorder>matrix_1_22</zorder>
+   <zorder>matrix_1_32</zorder>
+   <zorder>matrix_1_33</zorder>
+   <zorder>matrix_1_12</zorder>
+   <zorder>matrix_1_13</zorder>
+   <zorder>matrix_1_21</zorder>
+   <zorder>matrix1_vertLine_label</zorder>
+   <zorder>matrix1_bracket_label_2</zorder>
+   <zorder>tilde_label_1</zorder>
+   <zorder>matrix_2_11</zorder>
+   <zorder>matrix_2_32</zorder>
+   <zorder>matrix_2_33</zorder>
+   <zorder>matrix_2_21</zorder>
+   <zorder>matrix_2_23</zorder>
+   <zorder>matrix_2_12</zorder>
+   <zorder>matrix_2_13</zorder>
+   <zorder>matrix_2_31</zorder>
+   <zorder>matrix2_bracket_label_1</zorder>
+   <zorder>matrix2_bracket_label_2</zorder>
+   <zorder>matrix_2_22</zorder>
+   <zorder>matrix_3_21</zorder>
+   <zorder>matrix_3_31</zorder>
+   <zorder>matrix3_bracket_label_1</zorder>
+   <zorder>matrix_3_33</zorder>
+   <zorder>matrix_3_11</zorder>
+   <zorder>matrix_3_32</zorder>
+   <zorder>matrix_3_23</zorder>
+   <zorder>matrix3_bracket_label_2</zorder>
+   <zorder>matrix_3_13</zorder>
+   <zorder>matrix_3_22</zorder>
+   <zorder>matrix_3_12</zorder>
+   <zorder>matrix2_vertLine_label</zorder>
+   <zorder>matrix3_vertLine_label</zorder>
+   <zorder>augmentMatrix_label_33</zorder>
+   <zorder>augmentMatrix_bracket_label_1</zorder>
+   <zorder>augmentMatrix_label_11</zorder>
+   <zorder>augmentMatrix_label_21</zorder>
+   <zorder>augmentMatrix_label_22</zorder>
+   <zorder>augmentMatrix_label_24</zorder>
+   <zorder>augmentMatrix_bracket_label_2</zorder>
+   <zorder>augmentMatrix_label_34</zorder>
+   <zorder>augmentMatrix_label_13</zorder>
+   <zorder>augmentMatrix_label_32</zorder>
+   <zorder>augmentMatrix_label_31</zorder>
+   <zorder>augmentMatrix_label_12</zorder>
+   <zorder>augmentMatrix_label_14</zorder>
+   <zorder>augmentMatrix_label_23</zorder>
+   <zorder>augmentMatrix_vertLine_label</zorder>
+   <zorder>x11_label_2</zorder>
+   <zorder>x22_label_2</zorder>
+   <zorder>x13_label_2</zorder>
+   <zorder>argument_label_13</zorder>
+   <zorder>x31_label_2</zorder>
+   <zorder>label_20</zorder>
+   <zorder>answer_label_1</zorder>
+   <zorder>argument_label_21</zorder>
+   <zorder>x32_label_2</zorder>
+   <zorder>label_23</zorder>
+   <zorder>label_14</zorder>
+   <zorder>answer_label_3</zorder>
+   <zorder>argument_label_33</zorder>
+   <zorder>argument_label_32</zorder>
+   <zorder>x12_label_2</zorder>
+   <zorder>argument_label_11</zorder>
+   <zorder>argument_lineEdit_11</zorder>
+   <zorder>x21_label_2</zorder>
+   <zorder>label_17</zorder>
+   <zorder>label_15</zorder>
+   <zorder>argument_label_22</zorder>
+   <zorder>answer_label_2</zorder>
+   <zorder>argument_label_12</zorder>
+   <zorder>argument_label_31</zorder>
+   <zorder>argument_label_23</zorder>
+   <zorder>label_18</zorder>
+   <zorder>x33_label_2</zorder>
+   <zorder>label_24</zorder>
+   <zorder>label_25</zorder>
+   <zorder>x23_label_2</zorder>
+   <zorder>label_26</zorder>
+   <zorder>argument_lineEdit_12</zorder>
+   <zorder>argument_lineEdit_13</zorder>
+   <zorder>answer_lineEdit_1</zorder>
+   <zorder>argument_lineEdit_21</zorder>
+   <zorder>argument_lineEdit_22</zorder>
+   <zorder>argument_lineEdit_23</zorder>
+   <zorder>answer_lineEdit_2</zorder>
+   <zorder>argument_lineEdit_31</zorder>
+   <zorder>argument_lineEdit_32</zorder>
+   <zorder>argument_lineEdit_33</zorder>
+   <zorder>answer_lineEdit_3</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>brace_label_2</zorder>
+   <zorder>result_system_label_12</zorder>
+   <zorder>result_system_answer_label_1</zorder>
+   <zorder>result_system_label_13</zorder>
+   <zorder>label_27</zorder>
+   <zorder>label_21</zorder>
+   <zorder>label_28</zorder>
+   <zorder>result_system_label_31</zorder>
+   <zorder>x31_label_3</zorder>
+   <zorder>result_system_answer_label_2</zorder>
+   <zorder>result_system_answer_label_3</zorder>
+   <zorder>label_16</zorder>
+   <zorder>x11_label_3</zorder>
+   <zorder>result_system_label_33</zorder>
+   <zorder>label_29</zorder>
+   <zorder>x21_label_3</zorder>
+   <zorder>x32_label_3</zorder>
+   <zorder>label_19</zorder>
+   <zorder>result_system_label_32</zorder>
+   <zorder>result_system_label_11</zorder>
+   <zorder>label_22</zorder>
+   <zorder>result_system_label_22</zorder>
+   <zorder>label_30</zorder>
+   <zorder>label_31</zorder>
+   <zorder>x33_label_3</zorder>
+   <zorder>result_system_label_23</zorder>
+   <zorder>result_system_label_21</zorder>
+   <zorder>x22_label_3</zorder>
+   <zorder>z_label</zorder>
+   <zorder>z_value_label</zorder>
+   <zorder>y_label</zorder>
+   <zorder>y_value_label</zorder>
+   <zorder>x_label</zorder>
+   <zorder>x_value_label</zorder>
+   <zorder>tilde_label_2</zorder>
   </widget>
  </widget>
  <resources>

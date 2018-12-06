@@ -12,10 +12,13 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1399, 741)
+        MainWindow.setMinimumSize(QtCore.QSize(1399, 741))
+        MainWindow.setMaximumSize(QtCore.QSize(1399, 741))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label1 = QtWidgets.QLabel(self.centralwidget)
         self.label1.setGeometry(QtCore.QRect(20, 10, 1401, 101))
+        self.label1.setMaximumSize(QtCore.QSize(700000, 16777215))
         font = QtGui.QFont()
         font.setFamily("Microsoft Tai Le")
         font.setPointSize(20)
@@ -103,7 +106,7 @@ class Ui_MainWindow(object):
         self.label_3.setPixmap(QtGui.QPixmap("C:\\img\\table.png"))
         self.label_3.setObjectName("label_3")
         self.pushButton_Matrix = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_Matrix.setGeometry(QtCore.QRect(420, 700, 251, 31))
+        self.pushButton_Matrix.setGeometry(QtCore.QRect(420, 700, 281, 31))
         font = QtGui.QFont()
         font.setPointSize(15)
         font.setBold(True)
@@ -117,9 +120,9 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "СЛАУ"))
         self.label1.setText(_translate("MainWindow", "Из некоторого листового материала необходимо выкроить 360 заготовок типа А, 300 заготовок\n"
-"типа Б и 657 заготовок типа В. При этом можно применять три типа способа раскроя. Количество\n"
+"типа Б и 675 заготовок типа В. При этом можно применять три типа способа раскроя. Количество\n"
 "заготовок, получаемых из каждого листа при каждом способе раскроя, указано в таблице:"))
         self.label2.setText(_translate("MainWindow", "Записать в математической формуле условия выполнения задания."))
         self.label1_2.setText(_translate("MainWindow", "Решение. Обозначим через x, y, z количество листов материала, раскраиваемых соответственно\n"
@@ -136,4 +139,4 @@ class Ui_MainWindow(object):
 "формуле условия выполнения всего задания по заготовкам А, Б и В."))
         self.pushButton_Cramer.setText(_translate("MainWindow", "Метод Крамера"))
         self.pushButton_Gauss.setText(_translate("MainWindow", "Метод Гаусса"))
-        self.pushButton_Matrix.setText(_translate("MainWindow", "Матричный способ"))
+        self.pushButton_Matrix.setText(_translate("MainWindow", "Метода Гаусса-Жордана"))
